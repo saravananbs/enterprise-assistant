@@ -1,0 +1,485 @@
+DATA RETENTION AND MANAGEMENT POLICY
+
+Version: 2.0
+Effective Date: January 1, 2026
+Last Reviewed: January 1, 2026
+Policy Owner: Chief Information Security Officer
+
+SECTION 1: POLICY OVERVIEW
+
+1.1 Purpose and Objectives
+This Data Retention and Management Policy ("Policy") establishes Enterprise Solutions Corporation's ("Company") guidelines for the collection, storage, retention, and disposal of data and records. The primary objectives of this Policy are to:
+- Ensure compliance with legal, regulatory, and contractual requirements
+- Protect sensitive and confidential information
+- Minimize storage costs and operational complexity
+- Support business continuity and disaster recovery efforts
+- Facilitate efficient information retrieval when needed
+- Reduce legal and compliance risks
+
+1.2 Scope and Applicability
+This Policy applies to all data and records created, received, or maintained by the Company, regardless of format or medium. This includes but is not limited to:
+- Electronic data stored on servers, databases, cloud platforms, and endpoints
+- Physical documents, files, and records
+- Email and electronic communications
+- Audio and video recordings
+- Backup and archived data
+- Third-party hosted data
+
+All employees, contractors, consultants, vendors, and business partners who handle Company data are required to comply with this Policy.
+
+1.3 Policy Authority
+This Policy is issued under the authority of the Chief Information Security Officer (CISO) in coordination with the Legal Department, Human Resources, Finance, and Information Technology. Questions regarding this Policy should be directed to datagovernance@enterprisesolutions.com.
+
+SECTION 2: DEFINITIONS AND CLASSIFICATIONS
+
+2.1 Key Definitions
+- "Data" refers to any information in any format, including structured and unstructured data
+- "Record" means information created, received, or maintained as evidence of business activities
+- "Retention Period" is the length of time that records must be kept before authorized disposal
+- "Data Owner" is the business unit or department responsible for specific data sets
+- "Personal Data" means information relating to an identified or identifiable individual
+- "Sensitive Data" includes confidential, proprietary, or regulated information requiring special protection
+
+2.2 Data Classification Levels
+The Company classifies data into four levels based on sensitivity and impact:
+
+LEVEL 1 - PUBLIC DATA
+- Definition: Information intended for public disclosure or that poses no risk if disclosed
+- Examples: Published marketing materials, public website content, press releases
+- Retention: Retain indefinitely or until no longer needed
+- Access: Unrestricted
+
+LEVEL 2 - INTERNAL DATA
+- Definition: Information for internal use that could cause minor inconvenience if disclosed
+- Examples: Internal memos, general business correspondence, policies
+- Retention: 3-7 years depending on business need
+- Access: All employees on need-to-know basis
+
+LEVEL 3 - CONFIDENTIAL DATA
+- Definition: Information requiring protection due to competitive, legal, or privacy concerns
+- Examples: Employee records, customer data, contracts, financial information
+- Retention: Varies by data type; see Section 3
+- Access: Restricted to authorized personnel only
+
+LEVEL 4 - HIGHLY CONFIDENTIAL/RESTRICTED DATA
+- Definition: Information that could cause severe damage if disclosed; includes regulated data
+- Examples: Trade secrets, PII, PHI, payment card data, source code
+- Retention: As required by law and business need
+- Access: Strictly controlled; requires approval and audit trail
+
+SECTION 3: RETENTION SCHEDULES BY DATA TYPE
+
+3.1 Employee and Human Resources Data
+
+PERSONNEL FILES AND RECORDS
+- Active employee personnel files: Duration of employment + 7 years
+- Terminated employee personnel files: 7 years from termination date
+- Employee contracts and agreements: Termination + 7 years
+- Job applications (hired): Duration of employment + 3 years
+- Job applications (not hired): 3 years from application date
+- Background check records: Termination + 7 years
+- I-9 Forms: 3 years from hire date or 1 year from termination, whichever is longer
+- Performance reviews and evaluations: Duration of employment + 3 years
+- Disciplinary records: Termination + 7 years
+
+PAYROLL AND COMPENSATION
+- Payroll records and time sheets: 7 years
+- Tax withholding records: 7 years
+- Salary and wage information: 7 years
+- Bonus and commission records: 7 years
+- Benefits enrollment and changes: 7 years from end of participation
+- 401(k) and retirement plan records: Permanent
+- Workers' compensation claims: 10 years from claim date
+- Unemployment insurance records: 7 years
+
+TRAINING AND DEVELOPMENT
+- Training attendance records: 5 years
+- Training materials and curricula: 3 years after superseded
+- Professional development plans: Duration of employment + 1 year
+- Certification and license records: Duration of validity + 3 years
+
+3.2 Financial and Accounting Data
+
+GENERAL FINANCIAL RECORDS
+- Annual financial statements: Permanent
+- General ledger and journals: 7 years
+- Bank statements and reconciliations: 7 years
+- Accounts payable and receivable: 7 years
+- Invoices and receipts: 7 years
+- Purchase orders: 7 years
+- Credit card statements: 7 years
+- Expense reports: 7 years
+
+TAX RECORDS
+- Corporate tax returns: Permanent
+- Tax payment records: Permanent
+- Sales tax records: 7 years
+- Property tax records: Permanent
+- Payroll tax records: 7 years
+- Tax audit documentation: Permanent
+- IRS correspondence: Permanent
+
+AUDIT RECORDS
+- Internal audit reports: 7 years
+- External audit reports: Permanent
+- Audit work papers: 7 years
+- Management response to audits: 7 years
+
+CONTRACTS AND AGREEMENTS
+- Executed contracts: 7 years after expiration or termination
+- Vendor agreements: 7 years after expiration
+- Non-disclosure agreements: 7 years after expiration
+- Partnership agreements: Permanent
+- Loan agreements: 7 years after final payment
+- Lease agreements: 7 years after expiration
+
+3.3 Customer and Client Data
+
+CUSTOMER RECORDS
+- Customer master files: 7 years from last transaction
+- Customer contracts and agreements: 7 years after expiration
+- Customer correspondence: 3 years from last contact
+- Sales records and invoices: 7 years
+- Customer support tickets: 3 years from closure
+- Customer complaints: 5 years from resolution
+- Customer satisfaction surveys: 3 years
+
+MARKETING AND SALES DATA
+- Marketing campaign records: 3 years
+- Lead generation data: 2 years or until conversion
+- Email marketing lists: Active until opt-out + 1 year
+- Sales proposals and quotes: 3 years
+- Win/loss analysis: 5 years
+- Market research data: 5 years
+
+3.4 Intellectual Property and Legal Data
+
+INTELLECTUAL PROPERTY
+- Patents: Permanent
+- Trademarks: Permanent
+- Copyrights: Permanent
+- Trade secrets: Permanent
+- Invention disclosures: Permanent
+- Licensing agreements: 7 years after expiration
+
+LEGAL RECORDS
+- Litigation files: Permanent
+- Settlement agreements: Permanent
+- Legal opinions and advice: 7 years
+- Regulatory filings: Permanent
+- Corporate governance documents: Permanent
+- Board meeting minutes: Permanent
+- Shareholder records: Permanent
+
+3.5 Information Technology Data
+
+SYSTEM AND SECURITY DATA
+- System access logs: 90 days
+- Security incident logs: 7 years
+- Firewall and intrusion detection logs: 1 year
+- Vulnerability assessment reports: 3 years
+- Security policies and procedures: Current version + 3 years
+- Disaster recovery plans: Current version + 3 years
+- Backup verification logs: 1 year
+
+APPLICATION AND DATABASE DATA
+- Production database backups: 30 days (daily), 12 months (monthly)
+- Development and test data: Until project completion + 90 days
+- Application source code: Duration of application use + 3 years
+- System documentation: Current version + 3 years
+- Software licenses: Duration of use + 3 years
+
+3.6 Communication Records
+
+EMAIL AND MESSAGING
+- General business email: 3 years
+- Executive/leadership email: 7 years
+- Legal or regulatory email: 7 years or as required
+- Email with attachments (contracts, etc.): Follow attachment retention rules
+- Instant messages/chat: 90 days unless business critical
+- Video conferencing recordings: 90 days unless business critical
+
+CORRESPONDENCE
+- General business correspondence: 3 years
+- Significant business correspondence: 7 years
+- Routine inquiries and replies: 1 year
+- Meeting agendas and materials: 3 years
+- Meeting minutes (non-board): 7 years
+
+3.7 Operational and Administrative Data
+
+FACILITIES AND EQUIPMENT
+- Property records: Duration of ownership + 7 years
+- Equipment maintenance records: Duration of ownership + 3 years
+- Safety inspection reports: 5 years
+- Insurance policies: Permanent
+- Insurance claims: 10 years from settlement
+
+VENDOR AND SUPPLIER DATA
+- Vendor contracts: 7 years after expiration
+- Vendor performance evaluations: 3 years
+- Purchase requisitions: 3 years
+- Receiving documents: 3 years
+
+SECTION 4: DATA RETENTION PROCEDURES
+
+4.1 Data Collection and Creation
+When creating or collecting data, employees must:
+- Determine the appropriate data classification level
+- Identify the data owner and retention requirements
+- Ensure data is stored in approved systems and locations
+- Apply appropriate security controls based on classification
+- Document the business purpose for data collection
+
+4.2 Active Data Management
+During the retention period, data owners must:
+- Ensure data accuracy and completeness
+- Implement access controls based on business need
+- Monitor data usage and access patterns
+- Update or correct data as necessary
+- Conduct periodic reviews of data relevance
+
+4.3 Legal Holds and Litigation Preservation
+When litigation, investigation, or audit is pending or reasonably anticipated:
+- The Legal Department will issue a legal hold notice
+- All relevant data must be preserved regardless of scheduled disposal dates
+- Data owners must acknowledge receipt of hold notices
+- Held data must be identified and segregated from routine disposal processes
+- Legal holds remain in effect until explicitly released by Legal Department
+
+4.4 Data Disposal and Destruction
+At the end of the retention period, data must be disposed of securely:
+
+ELECTRONIC DATA DISPOSAL
+- Deletion or overwriting using approved secure deletion tools
+- Physical destruction of storage media using certified destruction services
+- Certificate of destruction must be obtained and retained for 3 years
+- Backup media containing expired data should be overwritten or destroyed
+
+PHYSICAL RECORDS DISPOSAL
+- Confidential documents must be shredded using cross-cut shredders
+- Bulk document destruction must use certified destruction vendors
+- Certificate of destruction must be obtained and retained for 3 years
+- Non-confidential documents may be recycled after verification
+
+4.5 Exception Requests
+Requests to retain data beyond scheduled retention periods or dispose of data earlier must be:
+- Submitted in writing to the Data Governance Committee
+- Justified with valid business or legal reasons
+- Approved by Data Owner, Legal, and Compliance
+- Documented and maintained in the exceptions log
+
+SECTION 5: REGULATORY COMPLIANCE
+
+5.1 Applicable Regulations
+This Policy is designed to comply with relevant laws and regulations, including:
+- Sarbanes-Oxley Act (SOX)
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)
+- Health Insurance Portability and Accountability Act (HIPAA)
+- Payment Card Industry Data Security Standard (PCI DSS)
+- Fair Labor Standards Act (FLSA)
+- Age Discrimination in Employment Act (ADEA)
+- Americans with Disabilities Act (ADA)
+- IRS Revenue Procedures and Tax Code requirements
+- State-specific record retention laws
+
+5.2 International Data Considerations
+For data subject to international regulations:
+- Data transfer mechanisms must comply with applicable cross-border transfer rules
+- Data localization requirements must be observed
+- Privacy rights requests must be processed within statutory timeframes
+- Additional retention or disposal requirements of foreign jurisdictions must be followed
+
+5.3 Industry-Specific Requirements
+Organizations operating in regulated industries must comply with additional requirements:
+- Healthcare: HIPAA minimum retention of 6 years
+- Financial Services: SEC and FINRA requirements
+- Government Contractors: FAR retention requirements
+- Education: FERPA requirements for student records
+
+SECTION 6: DATA PRIVACY AND PROTECTION
+
+6.1 Personal Data Handling
+Personal data must be:
+- Collected only for specified, explicit, and legitimate purposes
+- Limited to what is necessary for the stated purpose
+- Accurate and kept up to date
+- Retained only as long as necessary for the specified purpose
+- Processed securely with appropriate technical and organizational measures
+
+6.2 Data Subject Rights
+The Company respects the following data subject rights:
+- Right to access personal data
+- Right to rectification of inaccurate data
+- Right to erasure ("right to be forgotten") when legally permissible
+- Right to restriction of processing
+- Right to data portability
+- Right to object to processing
+- Rights related to automated decision-making
+
+Requests to exercise these rights should be submitted to privacy@enterprisesolutions.com and will be processed within 30 days.
+
+6.3 Data Breach Response
+In the event of a data breach:
+- The Information Security team must be notified immediately
+- Incident response procedures will be activated
+- Affected individuals will be notified as required by law
+- Regulatory authorities will be notified within required timeframes
+- Post-incident review will be conducted to prevent recurrence
+
+SECTION 7: ROLES AND RESPONSIBILITIES
+
+7.1 Data Governance Committee
+Responsibilities include:
+- Overseeing implementation and enforcement of this Policy
+- Reviewing and approving retention schedule updates
+- Resolving data retention disputes and exception requests
+- Monitoring compliance with retention requirements
+- Reporting to executive leadership on data governance matters
+
+7.2 Data Owners
+Each business unit designates Data Owners responsible for:
+- Determining business value and retention needs for their data
+- Ensuring compliance with retention schedules
+- Approving access to data within their domain
+- Initiating data disposal when retention periods expire
+- Responding to data subject rights requests
+
+7.3 Information Technology Department
+IT is responsible for:
+- Implementing technical controls to support retention requirements
+- Managing backup and archival systems
+- Executing secure data disposal procedures
+- Maintaining audit trails of data access and disposal
+- Supporting legal holds and data preservation requests
+
+7.4 Legal and Compliance Department
+Legal and Compliance are responsible for:
+- Advising on legal and regulatory retention requirements
+- Issuing and releasing legal holds
+- Reviewing and approving Policy updates
+- Investigating potential Policy violations
+- Liaising with regulatory authorities as needed
+
+7.5 All Employees
+Every employee is responsible for:
+- Understanding and complying with this Policy
+- Properly classifying and storing data
+- Not retaining data beyond scheduled retention periods
+- Reporting suspected Policy violations
+- Participating in data governance training
+
+SECTION 8: TRAINING AND AWARENESS
+
+8.1 Training Requirements
+- All employees must complete data governance training within 30 days of hire
+- Annual refresher training is required for all staff
+- Role-specific training for Data Owners and IT personnel
+- Legal hold training for employees likely to receive hold notices
+
+8.2 Awareness Programs
+The Company conducts ongoing awareness activities including:
+- Regular communications about data retention best practices
+- Updates on regulatory changes affecting retention
+- Reminders about common retention violations
+- Recognition of departments demonstrating excellent compliance
+
+SECTION 9: MONITORING AND ENFORCEMENT
+
+9.1 Compliance Monitoring
+The Company monitors compliance through:
+- Quarterly reviews of data retention practices
+- Annual comprehensive audits of retention compliance
+- Automated monitoring of data age and disposal schedules
+- Spot checks of departments and systems
+- Analysis of data storage trends and costs
+
+9.2 Non-Compliance Consequences
+Violations of this Policy may result in:
+- Verbal or written warnings
+- Mandatory additional training
+- Suspension of system access privileges
+- Performance improvement plans
+- Termination of employment
+- Legal action in cases of willful violations
+
+9.3 Continuous Improvement
+The Company is committed to continuously improving data retention practices:
+- Policy reviewed annually and updated as needed
+- Retention schedules adjusted based on business changes
+- Technology solutions implemented to automate retention
+- Feedback solicited from stakeholders
+- Best practices shared across departments
+
+SECTION 10: POLICY GOVERNANCE
+
+10.1 Policy Review and Updates
+This Policy will be reviewed annually or more frequently if:
+- New laws or regulations are enacted
+- Significant business changes occur
+- Material compliance issues are identified
+- Technology capabilities change substantially
+
+10.2 Policy Approval
+This Policy is approved by:
+- Chief Information Security Officer
+- Chief Legal Officer
+- Chief Financial Officer
+- Chief Human Resources Officer
+
+10.3 Related Policies and Documents
+This Policy should be read in conjunction with:
+- Information Security Policy
+- Privacy Policy
+- Records Management Procedures
+- Electronic Communications Policy
+- Data Classification Standards
+- Backup and Recovery Procedures
+
+10.4 Contact Information
+Questions, concerns, or requests regarding this Policy should be directed to:
+
+Data Governance Committee
+Email: datagovernance@enterprisesolutions.com
+Phone: (555) 123-4590
+
+Privacy Office
+Email: privacy@enterprisesolutions.com
+Phone: (555) 123-4591
+
+Legal Department
+Email: legal@enterprisesolutions.com
+Phone: (555) 123-4567
+
+---
+
+APPENDIX A: DATA RETENTION SCHEDULE QUICK REFERENCE
+
+Employee Records: 3-7 years after separation
+Financial Records: 7 years (most); Permanent (tax returns, audits)
+Customer Records: 3-7 years from last transaction
+Contracts: 7 years after expiration
+Intellectual Property: Permanent
+Legal Records: 7 years to Permanent
+Email: 3-7 years depending on content
+System Logs: 90 days to 7 years depending on type
+
+APPENDIX B: DISPOSAL CHECKLIST
+
+[ ] Verify retention period has expired
+[ ] Confirm no legal holds are in effect
+[ ] Obtain Data Owner approval
+[ ] Select appropriate disposal method
+[ ] Execute secure disposal
+[ ] Obtain certificate of destruction
+[ ] Update records management system
+[ ] Retain disposal documentation for 3 years
+
+---
+
+ENTERPRISE SOLUTIONS CORPORATION
+Data Governance Office
+Version: 2.0 | Effective: January 1, 2026
+Document Classification: Internal - Compliance
+Distribution: All Employees and Contractors

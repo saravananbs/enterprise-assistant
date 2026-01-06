@@ -1,0 +1,54 @@
+*.env
+# ========================
+# Python bytecode
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# Virtual environments
+# ========================
+venv/
+.venv/
+env/
+.env/
+venv*/
+ENV/
+.virtualenv/
+
+# ========================
+# VS Code
+# ========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ========================
+# OS / editor junk
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+
+# ========================
+# Logs & caches
+# ========================
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ========================
+# Build / dist
+# ========================
+build/
+dist/
+*.egg-info/
+
+# ========================
+# LangGraph
+# ========================
+.langgraph_api/

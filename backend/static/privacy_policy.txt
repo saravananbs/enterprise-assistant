@@ -1,0 +1,759 @@
+PRIVACY POLICY
+
+Version: 5.0
+Effective Date: January 1, 2026
+Last Updated: January 1, 2026
+Policy Owner: Chief Privacy Officer
+
+TABLE OF CONTENTS
+1. Introduction and Scope
+2. Information We Collect
+3. How We Use Your Information
+4. Information Sharing and Disclosure
+5. Data Security and Protection
+6. Data Retention and Deletion
+7. Your Privacy Rights
+8. International Data Transfers
+9. Children's Privacy
+10. Cookies and Tracking Technologies
+11. Third-Party Links and Services
+12. Changes to This Privacy Policy
+13. Contact Information
+
+================================================================================
+SECTION 1: INTRODUCTION AND SCOPE
+================================================================================
+
+1.1 Privacy Commitment
+Enterprise Solutions Corporation ("Company," "we," "us," or "our") is committed to protecting the privacy and security of personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard information about you when you:
+- Use our products and services
+- Visit our websites and mobile applications
+- Interact with us as a customer, vendor, partner, or service provider
+- Apply for employment or work as an employee or contractor
+- Attend our events or participate in our programs
+
+This Privacy Policy applies to all personal information processed by the Company, regardless of format (electronic or physical) or location (on-premises or cloud-based systems).
+
+1.2 Our Privacy Principles
+Our approach to privacy is guided by core principles:
+- TRANSPARENCY: We clearly explain our data practices
+- CHOICE: We provide meaningful options about data use
+- SECURITY: We implement robust safeguards to protect data
+- ACCOUNTABILITY: We take responsibility for data we collect and process
+- MINIMIZATION: We collect only what we need for legitimate purposes
+- ACCURACY: We maintain accurate and up-to-date information
+- COMPLIANCE: We adhere to applicable privacy laws and regulations
+
+1.3 Scope and Applicability
+This Privacy Policy applies to:
+- Customers and prospective customers
+- Website and mobile application users
+- Job applicants, employees, contractors, and temporary workers
+- Business partners, vendors, and suppliers
+- Event attendees and program participants
+- Any individuals whose personal information we process
+
+This Privacy Policy supplements but does not replace any privacy notices provided in specific contexts (e.g., employee privacy notices, customer agreements, vendor contracts).
+
+1.4 Legal Basis for Processing
+We process personal information based on one or more of the following legal grounds:
+- CONSENT: You have provided explicit consent for specific processing activities
+- CONTRACT: Processing is necessary to perform a contract with you or take steps at your request
+- LEGAL OBLIGATION: Processing is required to comply with applicable laws and regulations
+- LEGITIMATE INTERESTS: Processing is necessary for our legitimate business interests, balanced against your rights
+- VITAL INTERESTS: Processing is necessary to protect your vital interests or those of another person
+
+================================================================================
+SECTION 2: INFORMATION WE COLLECT
+================================================================================
+
+2.1 Information You Provide Directly
+We collect information you provide when you:
+
+CUSTOMER AND PROSPECT INFORMATION:
+- Contact information: Name, email address, phone number, mailing address, job title, company name
+- Account credentials: Username, password (encrypted), security questions and answers
+- Payment information: Credit card details, billing address, payment preferences
+- Profile information: Preferences, communication choices, interests
+- Inquiry information: Questions, feedback, support requests, complaint details
+- Purchase history: Products or services purchased, transaction details, order history
+- Communication records: Correspondence via email, chat, phone, or other channels
+
+EMPLOYMENT AND HR INFORMATION:
+- Application information: Resume/CV, cover letter, work history, education, references
+- Identification data: Social Security number, driver's license, passport, work authorization documents
+- Background check information: Criminal history, credit history, employment verification, education verification
+- Compensation information: Salary, bonuses, benefits enrollment, tax withholding elections
+- Performance data: Performance reviews, goals, competencies, disciplinary records
+- Attendance and time records: Work hours, PTO usage, time-off requests
+- Diversity and inclusion data: Voluntary demographic information for EEO reporting
+- Emergency contact information: Names, relationships, contact details
+
+VENDOR AND PARTNER INFORMATION:
+- Business contact information: Name, title, company, email, phone
+- Tax and payment information: W-9/W-8 forms, payment details, invoicing information
+- Performance and compliance data: Service quality metrics, contract compliance, audit results
+
+2.2 Information We Collect Automatically
+When you use our websites, applications, or services, we automatically collect:
+
+DEVICE AND USAGE INFORMATION:
+- Device identifiers: IP address, device ID, MAC address
+- Device characteristics: Operating system, browser type and version, device type and model
+- Usage data: Pages viewed, links clicked, features used, time spent, navigation paths
+- Referral information: Source that referred you to our site, search terms used
+- Performance data: Load times, errors, system crashes
+
+LOG DATA:
+- Access logs: Date and time of access, actions performed
+- System logs: Authentication attempts, changes to settings, data access
+- Security logs: Failed login attempts, suspicious activities
+
+LOCATION INFORMATION:
+- IP-based location: General geographic location derived from IP address
+- Precise location: GPS coordinates if you enable location services on mobile devices
+- Office location: Physical location when accessing our systems from company premises
+
+2.3 Information from Third-Party Sources
+We may obtain information from external sources, including:
+
+DATA ENRICHMENT SERVICES:
+- Contact verification services: Validate email addresses and phone numbers
+- Business intelligence providers: Company information, industry data, business size
+- Marketing data providers: Professional interests, job changes, company news
+
+SOCIAL MEDIA PLATFORMS:
+- Public profile information when you connect accounts or interact with our social media presence
+- Information you choose to share when authenticating through social login
+
+BACKGROUND CHECK PROVIDERS:
+- Employment verification data
+- Education and credential verification
+- Criminal background check results (with your consent)
+- Credit reports (for positions requiring financial responsibility)
+
+PUBLIC SOURCES:
+- Publicly available information from government databases
+- Professional profiles on LinkedIn or similar platforms
+- News articles and press releases
+- Company websites and directories
+
+BUSINESS PARTNERS:
+- Lead information from marketing partners
+- Event attendance data from co-hosted events
+- Referral information from partner programs
+
+2.4 Sensitive Personal Information
+We limit collection of sensitive personal information and process it only when:
+- Required by law (e.g., EEO reporting, government contracts)
+- Necessary for employment purposes (e.g., health information for benefits administration)
+- Explicitly provided with your consent for specific purposes
+
+Sensitive information may include:
+- Government-issued identifiers: Social Security number, passport number, driver's license number
+- Financial information: Bank account details, credit card numbers
+- Health information: Medical conditions, disability accommodations, health insurance enrollment
+- Biometric data: Fingerprints or facial recognition (only where permitted and with consent)
+- Diversity data: Race, ethnicity, gender, sexual orientation, veteran status, disability status (collected voluntarily)
+
+We implement heightened security measures for all sensitive personal information.
+
+================================================================================
+SECTION 3: HOW WE USE YOUR INFORMATION
+================================================================================
+
+3.1 Business Operations and Service Delivery
+We use personal information to:
+- Provide products and services you request
+- Process transactions and payments
+- Create and manage customer accounts
+- Deliver customer support and respond to inquiries
+- Fulfill orders and provide delivery updates
+- Authenticate users and prevent unauthorized access
+- Administer contracts and business relationships
+- Manage vendor and partner relationships
+- Conduct quality assurance and improvement activities
+
+3.2 Communications and Marketing
+We use personal information to:
+- Send transactional communications (order confirmations, receipts, account notifications)
+- Provide customer service updates and important notices
+- Send marketing communications about products, services, events, and promotions (with your consent where required)
+- Conduct customer surveys and request feedback
+- Invite you to participate in programs, events, or research studies
+- Personalize marketing messages based on your interests and preferences
+- Analyze campaign effectiveness and marketing ROI
+
+You can opt out of marketing communications at any time using the unsubscribe link in emails or by contacting us.
+
+3.3 Employment and Human Resources
+We use personal information to:
+- Recruit and evaluate job applicants
+- Conduct background checks and employment verification
+- Manage the employment relationship
+- Administer compensation and benefits
+- Process payroll and tax withholdings
+- Conduct performance management and reviews
+- Provide training and professional development
+- Manage workplace safety and security
+- Investigate misconduct or policy violations
+- Comply with employment and labor laws
+- Manage workforce planning and succession
+
+3.4 Analytics and Business Intelligence
+We use personal information to:
+- Analyze customer behavior and preferences
+- Improve products, services, and user experiences
+- Conduct market research and competitive analysis
+- Identify trends and business opportunities
+- Measure website and application performance
+- Generate business reports and dashboards
+- Support strategic planning and decision-making
+- Calculate key performance indicators and metrics
+
+3.5 Security and Fraud Prevention
+We use personal information to:
+- Detect and prevent fraud, abuse, and security incidents
+- Monitor for suspicious activity and unauthorized access
+- Investigate security breaches and violations
+- Enforce our terms of service and policies
+- Protect against legal liability
+- Maintain the security and integrity of our systems
+
+3.6 Legal and Regulatory Compliance
+We use personal information to:
+- Comply with applicable laws, regulations, and legal processes
+- Respond to lawful requests from government authorities
+- Enforce our legal rights and defend against claims
+- Comply with court orders and subpoenas
+- Meet regulatory reporting requirements
+- Conduct internal audits and compliance monitoring
+- Maintain records as required by law
+
+================================================================================
+SECTION 4: INFORMATION SHARING AND DISCLOSURE
+================================================================================
+
+4.1 Internal Sharing
+Personal information is shared within the Company on a need-to-know basis:
+- Employees who require access to perform their job duties
+- Management for business operations and decision-making
+- IT staff for system administration and technical support
+- Legal and compliance teams for risk management
+- Human resources for employee-related matters
+
+All internal users are bound by confidentiality obligations and our information security policies.
+
+4.2 Service Providers and Vendors
+We share personal information with trusted third-party service providers who perform services on our behalf:
+
+TECHNOLOGY AND INFRASTRUCTURE:
+- Cloud hosting providers (AWS, Microsoft Azure, Google Cloud)
+- Email and communication service providers
+- Customer relationship management (CRM) platforms
+- Help desk and customer support systems
+- Analytics and data management platforms
+
+BUSINESS OPERATIONS:
+- Payment processors and financial institutions
+- Shipping and logistics providers
+- Marketing and advertising services
+- Event management companies
+- Professional services firms (legal, accounting, consulting)
+
+HUMAN RESOURCES:
+- Payroll processing services
+- Benefits administration platforms
+- Background check providers
+- Recruiting and applicant tracking systems
+- Learning management systems
+
+All service providers are contractually obligated to:
+- Use personal information only for specified purposes
+- Implement appropriate security measures
+- Comply with applicable privacy laws
+- Return or delete data when services end
+
+4.3 Business Partners and Affiliates
+We may share personal information with:
+- Subsidiaries and affiliated companies within our corporate group
+- Joint venture partners for collaborative projects
+- Resellers and distributors who sell our products
+- Co-marketing partners for joint campaigns or events
+- Integration partners whose services connect with ours
+
+Sharing is limited to what's necessary for the business relationship and subject to confidentiality agreements.
+
+4.4 Legal and Regulatory Disclosures
+We may disclose personal information when required or permitted by law:
+- To comply with legal obligations, court orders, or subpoenas
+- To government agencies in response to lawful requests
+- To law enforcement for investigation of crimes or threats
+- To regulatory authorities for compliance purposes
+- To protect our legal rights in litigation or disputes
+- To prevent fraud, security threats, or illegal activity
+- To protect the safety of individuals or the public
+
+We will notify affected individuals of legal demands for their information unless prohibited by law.
+
+4.5 Business Transactions
+In the event of a merger, acquisition, reorganization, bankruptcy, or sale of assets:
+- Personal information may be transferred to the acquiring or successor entity
+- We will provide notice of any such transfer
+- The acquiring entity will be bound by commitments made in this Privacy Policy
+- You will have the opportunity to opt out of the transfer where legally required
+
+4.6 Aggregated and De-Identified Information
+We may share aggregated, anonymized, or de-identified information that cannot reasonably identify individuals:
+- Statistical data and trend reports
+- Industry benchmarks and research findings
+- Aggregated usage metrics
+
+This information is not considered personal information and may be shared freely for business purposes.
+
+4.7 With Your Consent
+We may share personal information for purposes not described in this Privacy Policy when we have your explicit consent to do so.
+
+================================================================================
+SECTION 5: DATA SECURITY AND PROTECTION
+================================================================================
+
+5.1 Security Measures and Controls
+We implement comprehensive security measures to protect personal information:
+
+TECHNICAL SAFEGUARDS:
+- Encryption: Data encrypted in transit (TLS 1.3) and at rest (AES-256)
+- Access controls: Role-based access, least privilege principle, multi-factor authentication
+- Network security: Firewalls, intrusion detection/prevention systems, DDoS protection
+- Endpoint protection: Antivirus, anti-malware, device encryption
+- Secure development: Security by design, code reviews, vulnerability testing
+- Security monitoring: 24/7 security operations center, SIEM systems, threat intelligence
+
+ADMINISTRATIVE SAFEGUARDS:
+- Security policies and procedures documented and regularly updated
+- Background checks for employees with access to sensitive data
+- Confidentiality agreements for all employees, contractors, and vendors
+- Security awareness training for all personnel (annual and ongoing)
+- Incident response plan with defined roles and escalation procedures
+- Vendor security assessments and due diligence
+- Regular security audits and compliance reviews
+
+PHYSICAL SAFEGUARDS:
+- Secure data centers with 24/7 monitoring and access controls
+- Badge access systems for office facilities
+- Visitor management and escort requirements
+- Secure disposal of physical documents (shredding)
+- Environmental controls (fire suppression, climate control)
+- Locked storage for sensitive physical records
+
+5.2 Security Certifications and Compliance
+Our security program aligns with industry standards and frameworks:
+- ISO 27001: Information Security Management System
+- SOC 2 Type II: Service Organization Controls for security, availability, and confidentiality
+- PCI DSS: Payment Card Industry Data Security Standard (for payment processing)
+- NIST Cybersecurity Framework: Risk-based security approach
+- GDPR: General Data Protection Regulation compliance
+- CCPA: California Consumer Privacy Act compliance
+
+We undergo regular third-party audits and assessments to validate our security controls.
+
+5.3 Vulnerability Management
+We maintain a proactive vulnerability management program:
+- Regular vulnerability scanning of systems and applications
+- Penetration testing conducted annually by independent security firms
+- Prompt patching of identified vulnerabilities based on risk severity
+- Bug bounty program rewarding security researchers for responsible disclosure
+- Security advisories issued to customers when relevant
+
+5.4 Data Breach Response
+In the unlikely event of a data breach:
+- We will investigate promptly and take steps to contain the incident
+- Affected individuals will be notified within timeframes required by law (typically 72 hours)
+- Regulatory authorities will be notified as required
+- We will provide information about what data was compromised and steps being taken
+- We will offer assistance such as credit monitoring if appropriate
+- We will conduct post-incident review to prevent recurrence
+
+Report suspected security incidents to: security@enterprisesolutions.com
+
+5.5 Your Role in Security
+You can help protect your information by:
+- Using strong, unique passwords for your accounts
+- Enabling multi-factor authentication where available
+- Not sharing your credentials with others
+- Logging out when finished using our services
+- Being cautious of phishing emails and suspicious links
+- Keeping your devices and software updated
+- Reporting suspicious activity immediately
+
+================================================================================
+SECTION 6: DATA RETENTION AND DELETION
+================================================================================
+
+6.1 Retention Principles
+We retain personal information only as long as necessary for:
+- The purposes for which it was collected
+- Compliance with legal, regulatory, tax, and accounting obligations
+- Establishment, exercise, or defense of legal claims
+- Legitimate business purposes such as audit, security, and fraud prevention
+
+When personal information is no longer needed, we securely delete or anonymize it.
+
+6.2 Retention Periods by Category
+Specific retention periods vary by data type:
+
+CUSTOMER DATA:
+- Active customer records: Duration of relationship + 7 years
+- Inactive customer records: 7 years from last transaction
+- Marketing communications: Until opt-out + 1 year
+- Customer support tickets: 3 years from resolution
+- Transaction records: 7 years for tax and accounting purposes
+
+EMPLOYEE DATA:
+- Active employee records: Duration of employment + 7 years
+- Terminated employee records: 7 years from separation
+- Payroll records: 7 years
+- Benefits information: 7 years from end of participation
+- Applications (hired): Employment duration + 3 years
+- Applications (not hired): 3 years from application
+
+WEBSITE AND USAGE DATA:
+- Web analytics: 26 months
+- Access logs: 90 days
+- Security logs: 7 years
+
+See our Data Retention Policy for comprehensive retention schedules.
+
+6.3 Data Deletion Procedures
+When retention periods expire:
+- Electronic data is securely deleted using industry-standard deletion methods
+- Physical records are shredded or destroyed through certified vendors
+- Backup copies are overwritten in accordance with backup rotation schedules
+- Certificates of destruction are obtained and retained
+
+6.4 Legal Holds and Exceptions
+Deletion may be suspended when:
+- Litigation, investigation, or audit is pending or reasonably anticipated
+- Legal hold notice has been issued
+- Ongoing business need requires retention beyond standard periods
+- You have requested restriction of processing while a complaint is resolved
+
+================================================================================
+SECTION 7: YOUR PRIVACY RIGHTS
+================================================================================
+
+7.1 Access and Portability Rights
+You have the right to:
+- REQUEST ACCESS: Obtain confirmation of whether we process your personal information and receive a copy of that information
+- DATA PORTABILITY: Receive your personal information in a structured, commonly used, machine-readable format to transmit to another organization (where technically feasible)
+
+To exercise these rights, submit a request to privacy@enterprisesolutions.com. We will respond within 30 days (45 days for complex requests).
+
+7.2 Correction and Update Rights
+You have the right to:
+- REQUEST CORRECTION: Have inaccurate or incomplete personal information corrected or updated
+- UPDATE PREFERENCES: Modify your communication preferences, account settings, and contact information
+
+You can update many details directly through your account settings. For other changes, contact us at privacy@enterprisesolutions.com.
+
+7.3 Deletion Rights (Right to be Forgotten)
+You have the right to:
+- REQUEST DELETION: Have your personal information deleted when it's no longer necessary for the purposes collected, you withdraw consent, or you object to processing
+
+We will honor deletion requests except where:
+- Retention is required by law
+- Information is needed for legal claims or compliance
+- Processing is based on legitimate interests that override your rights
+- Information has been aggregated or anonymized
+
+Submit deletion requests to privacy@enterprisesolutions.com.
+
+7.4 Objection and Restriction Rights
+You have the right to:
+- OBJECT TO PROCESSING: Object to processing based on legitimate interests or for direct marketing purposes
+- RESTRICT PROCESSING: Request limitation of processing in specific circumstances (e.g., while accuracy is contested, while considering an objection)
+
+You can opt out of marketing communications at any time. For other objections or restrictions, contact privacy@enterprisesolutions.com.
+
+7.5 Consent Withdrawal
+If processing is based on your consent:
+- You have the right to withdraw consent at any time
+- Withdrawal does not affect the lawfulness of processing before withdrawal
+- We will inform you of the consequences of withdrawing consent
+
+7.6 Automated Decision-Making Rights
+You have the right to:
+- Not be subject to decisions based solely on automated processing that produce legal or similarly significant effects
+- Request human review of automated decisions
+- Express your point of view and contest the decision
+
+We do not currently engage in automated decision-making with legal or significant effects. If we do in the future, we will provide specific notice.
+
+7.7 Right to Complain
+You have the right to:
+- Lodge a complaint with a supervisory authority (data protection authority) in your jurisdiction
+- Contact us first to try to resolve concerns: privacy@enterprisesolutions.com
+
+Relevant supervisory authorities:
+- European Union: Your local Data Protection Authority
+- United Kingdom: Information Commissioner's Office (ICO)
+- California: California Privacy Protection Agency
+- Other U.S. states: State Attorney General or Consumer Protection Office
+
+7.8 Exercising Your Rights
+To exercise privacy rights:
+1. Submit a request via email to privacy@enterprisesolutions.com or through our Privacy Request Portal at privacy.enterprisesolutions.com
+2. Provide sufficient information to verify your identity (name, email, account information)
+3. Specify which right you wish to exercise and relevant details
+4. We will acknowledge receipt within 48 hours
+5. We will respond substantively within 30 days (45 days for complex requests)
+6. We may request additional information to verify your identity or clarify your request
+
+We do not charge fees for requests unless they are manifestly unfounded, excessive, or repetitive.
+
+7.9 Authorized Agent Requests
+You may designate an authorized agent to submit privacy requests on your behalf:
+- Provide written authorization signed by you
+- Authorized agent must verify their identity
+- We may also require you to verify your identity directly
+- We may deny requests from unauthorized third parties
+
+================================================================================
+SECTION 8: INTERNATIONAL DATA TRANSFERS
+================================================================================
+
+8.1 Cross-Border Data Transfers
+As a global organization, we may transfer personal information across borders to:
+- Affiliated companies in other countries
+- Service providers located internationally
+- Business partners in different jurisdictions
+
+We ensure adequate protection for international transfers through:
+
+EUROPEAN UNION TO UNITED STATES:
+- Standard Contractual Clauses (SCCs) approved by the European Commission
+- Adequacy decisions where applicable
+- Binding Corporate Rules (BCRs) for intra-group transfers
+- Supplementary measures to ensure data protection
+
+UNITED STATES TO OTHER COUNTRIES:
+- Standard Contractual Clauses or equivalent mechanisms
+- Assessment of destination country privacy laws
+- Contractual obligations on recipient entities
+
+8.2 Data Localization and Storage
+Personal information may be stored in:
+- United States (primary data centers)
+- European Union (for EU customer data)
+- Other regions as needed for service delivery
+
+We maintain appropriate security regardless of storage location.
+
+8.3 Your Rights Regarding International Transfers
+If you are located in the European Economic Area (EEA), United Kingdom, or Switzerland:
+- You have the right to information about safeguards applied to international transfers
+- You may request a copy of the Standard Contractual Clauses
+- You may object to transfers in certain circumstances
+
+Contact privacy@enterprisesolutions.com for more information.
+
+================================================================================
+SECTION 9: CHILDREN'S PRIVACY
+================================================================================
+
+9.1 Age Restrictions
+Our services are not directed to children under the age of 16 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children.
+
+9.2 Parental Notice and Consent
+If we learn that we have collected personal information from a child without appropriate parental consent:
+- We will delete the information as soon as reasonably possible
+- We will not use or share the information
+- We will take steps to prevent future collection
+
+9.3 Reporting Concerns
+If you believe we have inadvertently collected information from a child, please contact us immediately at privacy@enterprisesolutions.com so we can take appropriate action.
+
+================================================================================
+SECTION 10: COOKIES AND TRACKING TECHNOLOGIES
+================================================================================
+
+10.1 Types of Cookies We Use
+Our websites use cookies and similar technologies to:
+- Enable essential functionality
+- Remember your preferences
+- Analyze website usage
+- Deliver personalized content and advertising
+- Measure marketing campaign effectiveness
+
+ESSENTIAL COOKIES:
+- Required for website operation
+- Enable core features like security, authentication, and accessibility
+- Cannot be disabled without impacting functionality
+
+FUNCTIONAL COOKIES:
+- Remember your preferences and settings
+- Provide enhanced features
+- Improve user experience
+
+ANALYTICS COOKIES:
+- Measure website traffic and usage patterns
+- Understand how visitors interact with our site
+- Identify areas for improvement
+
+MARKETING COOKIES:
+- Deliver relevant advertisements
+- Track ad campaign performance
+- Prevent showing the same ad repeatedly
+- Measure conversion and ROI
+
+10.2 Cookie Management
+You can control cookies through:
+- Browser settings: Most browsers allow you to refuse or delete cookies
+- Opt-out tools: Industry opt-out mechanisms like Network Advertising Initiative
+- Cookie preference center: Manage your preferences on our website
+
+Note: Disabling certain cookies may impair website functionality.
+
+10.3 Do Not Track Signals
+Some browsers offer "Do Not Track" (DNT) signals. Currently, there is no industry consensus on responding to DNT signals. We do not currently respond to DNT signals but respect your choices through our cookie preference center and opt-out mechanisms.
+
+10.4 Other Tracking Technologies
+In addition to cookies, we may use:
+- Web beacons (pixels): Small images embedded in emails or web pages to track opens and clicks
+- Local storage: HTML5 local storage for enhanced functionality
+- Mobile device identifiers: Unique identifiers for mobile app analytics
+- Session storage: Temporary storage during your browsing session
+
+================================================================================
+SECTION 11: THIRD-PARTY LINKS AND SERVICES
+================================================================================
+
+11.1 Third-Party Websites
+Our websites may contain links to third-party sites not operated by us. We are not responsible for the privacy practices of these external sites. We encourage you to review the privacy policies of any third-party websites you visit.
+
+11.2 Social Media Integration
+Our websites may include social media features (e.g., Facebook "Like" button, Twitter "Tweet" button). These features may collect your IP address, track which pages you visit, and set cookies. Social media features are hosted by the third-party platforms, which have their own privacy policies.
+
+11.3 Third-Party Advertising
+We may use third-party advertising networks to display ads on our behalf across the internet. These networks may use cookies and other tracking technologies to:
+- Deliver relevant ads based on your interests
+- Measure ad effectiveness
+- Provide aggregate reporting
+
+You can opt out of interest-based advertising through industry opt-out tools:
+- Digital Advertising Alliance: optout.aboutads.info
+- Network Advertising Initiative: optout.networkadvertising.org
+- European Interactive Digital Advertising Alliance: youronlinechoices.eu
+
+11.4 Single Sign-On and Social Login
+If you choose to authenticate using single sign-on (e.g., "Sign in with Google" or "Sign in with LinkedIn"):
+- The third-party provider may share information with us according to your privacy settings with that provider
+- We will only request necessary information
+- Review the third-party's privacy policy to understand what information they collect and share
+
+================================================================================
+SECTION 12: CHANGES TO THIS PRIVACY POLICY
+================================================================================
+
+12.1 Policy Updates
+We may update this Privacy Policy periodically to reflect:
+- Changes in our data practices
+- New products or services
+- Legal or regulatory requirements
+- Customer feedback
+- Industry best practices
+
+12.2 Notice of Material Changes
+For material changes that significantly affect your rights:
+- We will update the "Last Updated" date at the top of this policy
+- We will provide prominent notice on our website or via email
+- We may request renewed consent where required by law
+- You will have the opportunity to review changes before they take effect
+
+12.3 Continued Use
+Your continued use of our services after Privacy Policy updates constitutes acceptance of the changes. If you do not agree with changes, you should discontinue use and contact us about deleting your account and data.
+
+12.4 Policy Version History
+Previous versions of this Privacy Policy are archived and available upon request to privacy@enterprisesolutions.com.
+
+================================================================================
+SECTION 13: CONTACT INFORMATION
+================================================================================
+
+13.1 Privacy Office Contact
+For questions, concerns, or requests regarding this Privacy Policy or our data practices:
+
+PRIVACY OFFICE
+Enterprise Solutions Corporation
+Email: privacy@enterprisesolutions.com
+Phone: (555) 123-4599
+Mail: Privacy Office
+      Enterprise Solutions Corporation
+      123 Business Plaza, Suite 500
+      San Francisco, CA 94105
+      United States
+
+Privacy Request Portal: privacy.enterprisesolutions.com
+
+13.2 Data Protection Officer
+For individuals in the European Economic Area or United Kingdom:
+
+DATA PROTECTION OFFICER
+Email: dpo@enterprisesolutions.com
+Mail: Data Protection Officer
+      Enterprise Solutions Corporation
+      European Operations
+      45 Financial Street
+      London, EC2R 7BN
+      United Kingdom
+
+13.3 Response Timeframes
+We strive to respond to all inquiries:
+- Acknowledgment: Within 48 hours
+- Substantive response: Within 30 days (may be extended to 45 days for complex matters)
+- Urgent security matters: Immediate response
+
+13.4 Escalation Process
+If you are not satisfied with our response:
+1. Request escalation to the Chief Privacy Officer
+2. Contact your local data protection authority
+3. Seek independent legal advice
+
+13.5 Additional Resources
+For more information about our privacy practices:
+- Privacy Center: privacy.enterprisesolutions.com
+- Trust Center: trust.enterprisesolutions.com
+- Security Information: security.enterprisesolutions.com
+- Cookie Policy: enterprisesolutions.com/cookies
+- Employee Privacy Notice: Available to employees on company intranet
+- Candidate Privacy Notice: Available to job applicants during application process
+
+---
+
+ACKNOWLEDGMENT
+
+By using our services, visiting our websites, or providing your personal information to us, you acknowledge that you have read and understood this Privacy Policy and agree to be bound by its terms.
+
+---
+
+ENTERPRISE SOLUTIONS CORPORATION
+Privacy and Data Protection Office
+
+Document Version: 5.0
+Effective Date: January 1, 2026
+Last Updated: January 1, 2026
+Document Classification: Public
+Distribution: All Stakeholders
+
+For questions or to exercise your privacy rights, contact:
+Email: privacy@enterprisesolutions.com
+Phone: (555) 123-4599
+Portal: privacy.enterprisesolutions.com
+
+Additional Policies and Legal Information:
+- Terms of Service: enterprisesolutions.com/terms
+- Cookie Policy: enterprisesolutions.com/cookies
+- Data Processing Agreement: Available to customers upon request
+- Security Whitepaper: Available at trust.enterprisesolutions.com
+
+© 2026 Enterprise Solutions Corporation. All rights reserved.
