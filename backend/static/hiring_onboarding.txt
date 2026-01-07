@@ -1,0 +1,956 @@
+HIRING AND ONBOARDING PROCEDURES GUIDE
+
+Version: 3.0
+Effective Date: January 1, 2026
+Document Owner: Talent Acquisition and HR Operations
+
+TABLE OF CONTENTS
+PART I: RECRUITMENT AND HIRING
+PART II: ONBOARDING AND ORIENTATION
+PART III: FIRST 90 DAYS - NEW EMPLOYEE INTEGRATION
+
+================================================================================
+PART I: RECRUITMENT AND HIRING PROCEDURES
+================================================================================
+
+SECTION 1: WORKFORCE PLANNING AND POSITION AUTHORIZATION
+
+1.1 Workforce Planning Overview
+Effective workforce planning ensures Enterprise Solutions Corporation ("Company") has the right talent in place to achieve business objectives. The process involves:
+- Annual headcount planning aligned with strategic goals and budgets
+- Quarterly reviews and adjustments based on business performance
+- Department-level staffing analyses considering growth, attrition, and skill gaps
+- Succession planning for critical and leadership positions
+- Workforce analytics tracking time-to-fill, cost-per-hire, and quality-of-hire metrics
+
+1.2 Position Request and Approval Process
+Before initiating recruitment, positions must be formally authorized:
+
+STEP 1: MANAGER INITIATES REQUEST
+- Complete Position Request Form in Workday
+- Include justification: new position, backfill, internal transfer, or organizational change
+- Provide business case including impact on team productivity, revenue, or strategic initiatives
+- Specify position details: title, level, department, reporting structure, location, employment type
+- Define salary range based on market data and internal equity
+
+STEP 2: DEPARTMENT REVIEW
+- Department Director reviews request for alignment with strategic priorities
+- Finance reviews budget availability and approval
+- HR Business Partner reviews job description, classification, and compensation
+
+STEP 3: EXECUTIVE APPROVAL
+- Vice President approves all positions within their division
+- C-level approval required for director-level and above positions
+- CFO approval required for positions not included in approved budget
+
+STEP 4: POSITION ACTIVATION
+- Once approved, HR Talent Acquisition receives notification
+- Position is entered into Applicant Tracking System (ATS)
+- Job description finalized and posted
+- Recruiting timeline established with hiring manager
+
+Timeline: Standard approval process takes 5-10 business days depending on level and budgetary considerations.
+
+1.3 Job Description Development
+Accurate job descriptions are essential for attracting qualified candidates:
+
+REQUIRED COMPONENTS:
+- Position title and level (matches compensation structure)
+- Department and reporting relationship
+- Position summary (2-3 sentences describing purpose and impact)
+- Essential functions and responsibilities (5-10 key duties)
+- Required qualifications (education, experience, certifications, skills)
+- Preferred qualifications (nice-to-have experience or skills)
+- Physical requirements and working conditions
+- Travel requirements (if applicable)
+- Salary range (transparency required in certain jurisdictions)
+
+Job descriptions must be:
+- Compliant with ADA requirements describing essential functions
+- Free from discriminatory language or requirements
+- Reviewed by HR for consistency with compensation levels
+- Approved before posting
+- Updated annually or when position changes significantly
+
+SECTION 2: RECRUITMENT STRATEGY AND SOURCING
+
+2.1 Talent Sourcing Channels
+The Company utilizes multiple channels to attract diverse, qualified candidates:
+
+INTERNAL CANDIDATES
+- Internal job postings on company intranet for 5 business days before external posting
+- Current employees receive priority consideration for advancement
+- Internal mobility encouraged to retain talent and fill knowledge gaps
+- Internal candidates must notify their manager before applying
+- Current manager consulted before extending offer to internal candidate
+
+EXTERNAL RECRUITMENT CHANNELS
+- Company careers website (primary channel)
+- Job boards: Indeed, LinkedIn, Glassdoor, specialized industry boards
+- Professional associations and industry groups
+- College and university recruiting partnerships (20+ schools)
+- Diversity-focused job boards and organizations
+- Social media: LinkedIn, Twitter, Facebook company pages
+- Employee referral program (see Section 2.3)
+- Recruiting agencies and executive search firms (for specialized or senior roles)
+
+2.2 Employer Branding and Recruitment Marketing
+Strong employer brand attracts top talent:
+- Maintain engaging careers website with employee testimonials, culture videos, and benefits information
+- Active social media presence showcasing company culture, awards, and employee stories
+- Participate in industry conferences, career fairs, and networking events
+- Encourage employees to share job postings and act as brand ambassadors
+- Respond to Glassdoor reviews professionally and authentically
+- Highlight awards, recognition, and "Best Places to Work" rankings
+
+2.3 Employee Referral Program
+Employees are the best source of quality candidates:
+
+REFERRAL PROCESS:
+1. Employee identifies qualified candidate from their network
+2. Employee submits referral through Workday with candidate's resume and contact information
+3. Recruiter reviews referral within 3 business days
+4. Candidate enters normal interview process
+5. If hired and candidate completes 90 days, referring employee receives bonus
+
+REFERRAL BONUSES:
+- Entry-level positions: $1,000
+- Mid-level positions: $2,000
+- Senior/specialized positions: $3,000
+- Executive positions: $5,000
+- Hard-to-fill positions: Bonus may be doubled (announced separately)
+
+ELIGIBILITY REQUIREMENTS:
+- Referring employee must be active employee when bonus is paid
+- Cannot refer relatives or individuals living in same household
+- Recruiters and hiring managers not eligible for roles they support
+- Referral must be made before candidate applies directly
+- Bonuses paid in paycheck following candidate's successful completion of probationary period
+- Bonuses subject to applicable taxes
+
+2.4 Diversity, Equity, and Inclusion in Recruitment
+The Company is committed to building a diverse workforce:
+- Partner with organizations supporting underrepresented groups (Society of Women Engineers, National Black MBA Association, etc.)
+- Use diverse interview panels representing different backgrounds and perspectives
+- Train hiring managers on unconscious bias and structured interviewing
+- Review recruitment language for inclusivity
+- Track diversity metrics at each stage of hiring funnel
+- Set diversity goals and hold leaders accountable
+- Ensure job requirements focus on essential skills, not "nice to haves" that may screen out diverse candidates
+- Consider non-traditional career paths and transferable skills
+
+SECTION 3: CANDIDATE SCREENING AND ASSESSMENT
+
+3.1 Application Review and Resume Screening
+Recruiters review applications based on:
+- Required qualifications match
+- Experience relevance and progression
+- Education and certifications
+- Skills alignment with position requirements
+- Red flags: employment gaps, job hopping, terminations
+
+Timeline: Applications reviewed within 5 business days of submission. Candidates notified of status within 7 business days.
+
+3.2 Initial Screening (Phone or Video)
+Qualified candidates proceed to initial screening:
+
+CONDUCTED BY: Recruiter or HR Coordinator
+DURATION: 20-30 minutes
+FORMAT: Phone or video call
+
+SCREENING TOPICS:
+- Review candidate's background and interest in role
+- Verify qualifications, experience, and technical skills
+- Discuss salary expectations and ensure alignment with budgeted range
+- Explain company culture, team structure, and role responsibilities
+- Assess communication skills and professionalism
+- Confirm work authorization and relocation requirements
+- Answer candidate questions
+- Explain interview process and timeline
+
+Candidates advancing to interviews are scheduled within 5-7 business days.
+
+3.3 Interview Process and Structure
+The Company uses structured behavioral interviewing to ensure fair, consistent candidate evaluation:
+
+TYPICAL INTERVIEW PROCESS:
+
+ROUND 1: HIRING MANAGER INTERVIEW (45-60 minutes)
+- Conducted by direct supervisor
+- Deep dive into experience and skills
+- Behavioral questions assessing competencies required for role
+- Discussion of team dynamics and expectations
+- Review of resume and work samples (if applicable)
+
+ROUND 2: PANEL INTERVIEW (60-90 minutes)
+- Interview with 2-3 team members or cross-functional partners
+- Each interviewer assesses different competencies
+- Candidate meets potential colleagues
+- Opportunity to ask questions about day-to-day work
+
+ROUND 3: SENIOR LEADERSHIP INTERVIEW (30-45 minutes)
+- Interview with department director or VP
+- Assessment of cultural fit and alignment with company values
+- Discussion of career goals and long-term potential
+- Final evaluation of leadership qualities (for management roles)
+
+SPECIALIZED ASSESSMENTS (as needed):
+- Technical skills assessment or coding challenge (technology roles)
+- Presentation or case study (strategy, consulting, sales roles)
+- Writing sample or portfolio review (marketing, communications, design roles)
+- Personality or behavioral assessment (leadership roles)
+
+3.4 Interview Best Practices and Legal Compliance
+All interviewers must:
+- Complete interview training covering legal compliance and unconscious bias
+- Use standardized interview guides with approved questions
+- Ask same core questions to all candidates for a given role
+- Focus on job-related qualifications and competencies
+- Take detailed notes for later evaluation
+- Avoid prohibited questions about protected characteristics
+
+PROHIBITED INTERVIEW TOPICS:
+- Age, date of birth, or graduation dates
+- Marital status, family status, or pregnancy
+- Race, ethnicity, national origin, or citizenship (except work authorization)
+- Religion or religious practices
+- Disability or medical conditions (except ability to perform essential functions with or without accommodation)
+- Sexual orientation or gender identity
+- Genetic information
+- Arrest record (convictions may be relevant depending on position)
+
+APPROPRIATE ALTERNATIVES:
+- Instead of "How old are you?" ask "Are you over 18?"
+- Instead of "Do you have children?" ask "Are you able to meet the travel requirements of this position?"
+- Instead of "Where are you from?" ask "What languages do you speak?"
+- Instead of "Do you have any disabilities?" state "This role requires [specific function]. Are you able to perform this with or without accommodation?"
+
+3.5 Reference and Background Checks
+Before extending offers, the Company conducts due diligence:
+
+REFERENCE CHECKS:
+- Minimum 2 professional references required (preferably former supervisors)
+- Recruiter or hiring manager conducts reference calls
+- Questions focus on work performance, strengths, areas for development, eligibility for rehire
+- References documented and kept confidential
+
+BACKGROUND CHECKS:
+Conducted for all final candidates before or immediately after offer acceptance (based on state law):
+- Criminal history check (7-year lookback)
+- Employment verification (past 10 years)
+- Education verification (degrees and certifications)
+- Credit check (for positions with financial responsibilities)
+- Professional license verification (as applicable)
+- Motor vehicle records check (for positions requiring driving)
+
+COMPLIANCE REQUIREMENTS:
+- Candidate must provide written authorization via Fair Credit Reporting Act (FCRA) disclosure
+- Adverse action process followed if background check reveals disqualifying information
+- Candidate given opportunity to dispute inaccurate information
+- Background checks reviewed on case-by-case basis considering nature of offense, time elapsed, and job duties
+- Ban-the-box compliance observed in applicable jurisdictions
+
+Timeline: Background checks typically completed within 3-5 business days.
+
+SECTION 4: OFFER PROCESS AND NEGOTIATION
+
+4.1 Offer Development and Approval
+Once hiring team selects candidate:
+
+STEP 1: COMPENSATION DETERMINATION
+- Recruiter and hiring manager propose salary within approved range
+- Consideration factors: candidate experience, skills, internal equity, market data, budget
+- HR reviews for compliance with compensation philosophy
+- Additional components: sign-on bonus, relocation assistance, equity (if applicable)
+
+STEP 2: OFFER APPROVAL
+- Hiring manager approves recommended offer
+- Department VP approves (for director-level and below)
+- C-level approves executive offers
+- Finance approves any above-budget compensation
+
+STEP 3: OFFER PREPARATION
+- Recruiter prepares offer letter including:
+  - Position title and department
+  - Start date
+  - Salary and pay frequency
+  - Bonus eligibility (if applicable)
+  - Employment classification (exempt/non-exempt)
+  - Benefits summary
+  - Work location and schedule
+  - Contingencies (background check, drug screen if applicable)
+  - At-will employment statement
+  - Offer expiration date (typically 5 business days)
+- Legal review for executive and specialized offers
+
+4.2 Offer Presentation and Negotiation
+OFFER DELIVERY:
+- Recruiter or hiring manager delivers offer verbally first
+- Discuss compensation, benefits, start date, and other terms
+- Address candidate questions and concerns
+- Generate enthusiasm about joining the team
+- Follow with written offer letter via email
+
+NEGOTIATION GUIDELINES:
+- Remain professional and collaborative throughout negotiation
+- Understand candidate's priorities (salary, benefits, flexibility, title, responsibilities)
+- If candidate requests higher salary, consult with hiring manager and HR
+- Consider total compensation package (base, bonus, benefits, equity, perks)
+- Additional negotiation room may exist for: sign-on bonus, early salary review, additional PTO, relocation assistance, title advancement
+- Know your walk-away point and when to decline counteroffers
+- Document all agreed-upon terms in revised offer letter
+- Secure required approvals for any changes to initial offer
+
+COMMON NEGOTIATION REQUESTS AND RESPONSES:
+- Higher salary: "Let me discuss with the team. Can you share the range you had in mind and your rationale?"
+- Sign-on bonus: "We can explore a sign-on bonus of $X to help bridge the gap."
+- Earlier salary review: "We can commit to a compensation review at 6 months based on performance."
+- Additional PTO: "PTO is based on our standardized policy, but we offer flexibility in how you use it."
+- Remote work: "Let's discuss the hybrid arrangement that works for both you and the team."
+
+4.3 Offer Acceptance and Pre-Boarding
+Once candidate accepts:
+- Obtain written acceptance via signed offer letter or electronic signature
+- Initiate background check (if not already completed)
+- Notify all interviewers and stakeholders of successful hire
+- Reject other final-round candidates professionally and promptly
+- Close position in ATS
+- Transition candidate to onboarding team
+
+PRE-BOARDING ACTIVITIES:
+- Send welcome email with start date confirmation and what to expect
+- Provide new hire paperwork portal link for completion before day one
+- Coordinate IT equipment setup (laptop, phone, accounts)
+- Prepare workspace or arrange desk/office
+- Add to team calendar and distribution lists
+- Assign onboarding buddy or mentor
+- Schedule first-day agenda and first-week meetings
+- Send parking/building access instructions
+- Maintain communication to keep candidate engaged and excited
+
+OFFER DECLINE MANAGEMENT:
+If candidate declines offer:
+- Understand reasons for declining (accept other offer, compensation, commute, etc.)
+- Thank candidate for their time and leave door open for future opportunities
+- Document decline reason for internal analysis
+- Assess whether to extend offer to second-choice candidate or reopen search
+- Conduct debrief with hiring team on what could be improved
+
+SECTION 5: RECRUITING METRICS AND CONTINUOUS IMPROVEMENT
+
+5.1 Key Recruiting Metrics
+The Talent Acquisition team tracks metrics to drive continuous improvement:
+
+TIME-TO-FILL METRICS:
+- Time from position approval to offer acceptance
+- Goal: 45 days or less for most positions
+- Benchmarked by position level and function
+
+QUALITY-OF-HIRE METRICS:
+- 90-day retention rate (goal: 95%+)
+- First-year retention rate (goal: 85%+)
+- New hire performance ratings at 6 and 12 months
+- Hiring manager satisfaction scores
+
+EFFICIENCY METRICS:
+- Cost-per-hire (including recruiter time, advertising, agency fees)
+- Applications per opening
+- Interview-to-offer ratio
+- Offer acceptance rate (goal: 85%+)
+- Source effectiveness (which channels produce best candidates)
+
+DIVERSITY METRICS:
+- Diversity of applicant pool vs. local demographics
+- Diversity of candidates advancing through each interview stage
+- Diversity of hires vs. workforce demographics
+- Gaps identified and addressed through process improvements
+
+5.2 Continuous Improvement Initiatives
+- Quarterly recruiting process reviews with hiring managers
+- Annual candidate experience survey
+- Regular training for hiring managers and interviewers
+- Technology enhancements to applicant tracking system
+- Employer brand audits and improvements
+- Competitive intelligence on hiring practices and compensation
+
+================================================================================
+PART II: ONBOARDING AND ORIENTATION PROCEDURES
+================================================================================
+
+SECTION 6: ONBOARDING PHILOSOPHY AND OBJECTIVES
+
+6.1 Onboarding Program Overview
+Effective onboarding is critical to new hire success, engagement, and retention. The Company's onboarding program extends from offer acceptance through the first 90 days of employment, with ongoing touch points throughout the first year.
+
+ONBOARDING GOALS:
+- Ensure smooth administrative and logistical transition
+- Provide comprehensive orientation to company, culture, and values
+- Clarify role expectations and performance standards
+- Build relationships with team, manager, and cross-functional partners
+- Accelerate productivity and time-to-contribution
+- Foster engagement and commitment to the organization
+- Achieve 95%+ new hire retention through first year
+
+6.2 Onboarding Stakeholder Roles
+
+HUMAN RESOURCES:
+- Coordinate overall onboarding experience
+- Complete new hire paperwork and compliance requirements
+- Conduct benefits orientation and enrollment
+- Deliver company-wide orientation program
+- Monitor onboarding progress and new hire satisfaction
+- Address questions and concerns
+
+HIRING MANAGER:
+- Prepare team for new hire's arrival
+- Conduct role-specific training and introductions
+- Set clear expectations and goals for first 90 days
+- Provide regular feedback and check-ins
+- Support integration into team and company culture
+
+ONBOARDING BUDDY:
+- Serve as peer resource for questions and guidance
+- Provide informal perspective on culture and norms
+- Include new hire in social activities and networking
+- Check in regularly during first 90 days
+
+IT DEPARTMENT:
+- Prepare and configure equipment before start date
+- Set up accounts, email, and system access
+- Provide technical orientation and support
+- Ensure connectivity and functionality
+
+FACILITIES:
+- Prepare workspace with furniture, supplies, and welcome items
+- Provide building access badge and parking pass
+- Conduct safety and security orientation
+
+SECTION 7: PREBOARDING - BEFORE DAY ONE
+
+7.1 Preboarding Activities Timeline
+
+4 WEEKS BEFORE START DATE:
+- Send welcome email from hiring manager with excitement about start date
+- Share company newsletter, recent news, or blog posts to familiarize with company
+- Invite to follow company social media accounts
+
+2 WEEKS BEFORE START DATE:
+- Send new hire paperwork portal link (I-9, W-4, direct deposit, emergency contact)
+- Provide benefits enrollment guide for review
+- Request any additional information needed (certifications, licenses)
+- Confirm start date, time, and location
+
+1 WEEK BEFORE START DATE:
+- Send first-day logistics email:
+  - Arrival time and where to report
+  - Parking information and building access instructions
+  - What to bring (ID for I-9, voided check for direct deposit)
+  - Dress code guidance
+  - First-day agenda overview
+- Order business cards
+- Set up workspace with computer, phone, supplies, and welcome gift
+- Assign onboarding buddy and notify them
+- Send welcome email to team announcing new hire's start date
+
+DAY BEFORE START DATE:
+- Final confirmation email: "See you tomorrow! Arrive at [time] at [location]. [Contact name] will greet you."
+- Ensure all systems access is ready
+- Confirm hiring manager availability for day-one activities
+
+7.2 New Hire Paperwork and Compliance
+New hires complete required paperwork before or on day one:
+
+FEDERAL FORMS:
+- Form I-9 Employment Eligibility Verification (must be completed within 3 days of start)
+- Form W-4 Federal Tax Withholding
+- Form 8850 Work Opportunity Tax Credit Screening (if applicable)
+
+STATE FORMS:
+- State tax withholding forms
+- State-specific new hire reporting
+
+COMPANY FORMS:
+- Direct deposit authorization
+- Emergency contact information
+- Acknowledgment of receipt of Employee Handbook
+- Confidentiality and intellectual property agreement
+- Arbitration agreement (if applicable)
+- Background check authorization and disclosure (if not completed pre-offer)
+- Social media and electronic communications policy acknowledgment
+
+All forms completed electronically through new hire portal when possible to streamline process and reduce paper.
+
+SECTION 8: DAY ONE - FIRST DAY EXPERIENCE
+
+8.1 First Day Welcome and Orientation
+
+8:00 AM - 9:00 AM: ARRIVAL AND WELCOME
+- Greeted by HR Coordinator or hiring manager at reception
+- Brief welcome and building tour
+- Escorted to workspace
+- Introduction to immediate team members
+- IT provides computer and phone, assists with login
+
+9:00 AM - 10:00 AM: HR NEW HIRE ORIENTATION (GROUP OR ONE-ON-ONE)
+- Welcome to the Company and overview of culture and values
+- Company history, mission, and strategic priorities
+- Organizational structure and leadership team
+- Review of Employee Handbook and key policies
+- Introduction to HRIS (Workday) and company intranet
+- Q&A
+
+10:00 AM - 11:30 AM: BENEFITS ENROLLMENT SESSION
+- Overview of health insurance options
+- Explanation of dental, vision, life, and disability insurance
+- Discussion of 401(k), HSA/FSA, and other benefits
+- Enrollment assistance
+- Deadline for enrollment (typically 30 days)
+
+11:30 AM - 12:30 PM: LUNCH WITH HIRING MANAGER AND TEAM
+- Team welcome lunch (company-provided)
+- Informal conversation and team bonding
+- Learn about team dynamics and projects
+
+12:30 PM - 2:00 PM: DEPARTMENT ORIENTATION
+- Introduction to department structure and colleagues
+- Overview of department goals and priorities
+- Explanation of how role fits into broader team objectives
+- Tour of department workspace and common areas
+
+2:00 PM - 3:30 PM: ROLE-SPECIFIC ORIENTATION WITH MANAGER
+- Review job description and key responsibilities
+- Discuss performance expectations and success metrics
+- Outline 30-60-90 day goals and objectives
+- Introduce to key stakeholders and cross-functional partners
+- Provide access to essential systems, tools, and files
+- Answer questions
+
+3:30 PM - 4:30 PM: INTRODUCTION TO ONBOARDING BUDDY
+- Meet onboarding buddy for informal chat
+- Buddy explains unwritten norms and helpful tips
+- Buddy provides contact information and encourages questions
+
+4:30 PM - 5:00 PM: FIRST DAY WRAP-UP
+- Manager checks in to see how day went
+- Address any concerns or questions
+- Preview day two agenda
+- Ensure new hire feels welcomed and supported
+
+FIRST DAY SUCCESS FACTORS:
+- No overwhelming information dumps - spread content over first week
+- Balance structure with flexibility for questions and relationship building
+- Emphasize culture and values, not just logistics
+- Create warm, welcoming atmosphere
+- Assign meaningful work or projects as appropriate
+- Send new hire home energized and confident about decision to join
+
+8.2 First Week Activities
+
+DAY TWO:
+- Technology training: email, calendar, collaboration tools, video conferencing
+- Information security training: password security, phishing, data protection
+- System access: introduction to role-specific applications and databases
+- Begin reading materials: company documents, process guides, product information
+- Attend scheduled meetings as observer to learn
+
+DAY THREE:
+- Shadowing: observe team members performing key tasks
+- Meet with key stakeholders introduced by manager (15-30 minute meetings)
+- Begin first project or assignment (appropriate for skill level and knowledge)
+- Continue compliance training modules
+
+DAY FOUR:
+- Participate in department or team meeting
+- Continue stakeholder meetings and relationship building
+- Work on projects with buddy or team member support
+- Ask questions and seek clarification on processes
+
+DAY FIVE:
+- End-of-week check-in with manager: progress review, questions, concerns
+- Reflection on first week: what went well, what questions remain
+- Preview of week two objectives
+- Social activity: coffee chat, happy hour, or team event (if scheduled)
+
+SECTION 9: FIRST 30 DAYS - FOUNDATION BUILDING
+
+9.1 Week 2-4 Learning and Integration
+
+TRAINING AND DEVELOPMENT:
+- Complete all required compliance training:
+  - Workplace harassment prevention
+  - Diversity and inclusion
+  - Information security and data protection
+  - Safety training (if applicable)
+  - Industry-specific compliance (as required)
+- Role-specific training: systems, tools, processes, methodologies
+- Product or service training to understand what company delivers
+- Customer training to understand who company serves
+
+RELATIONSHIP BUILDING:
+- Schedule 1-on-1 meetings with key stakeholders across functions
+- Attend team meetings and contribute as knowledge grows
+- Participate in company-wide events, all-hands meetings, or social activities
+- Get to know colleagues through informal conversations and lunches
+- Begin building network within organization
+
+WORK ASSIGNMENTS:
+- Take on increasing responsibility as competence grows
+- Complete initial projects or tasks with guidance
+- Shadow more experienced team members
+- Begin contributing to team deliverables
+- Ask for feedback regularly
+
+MANAGER SUPPORT:
+- Weekly 1-on-1 meetings with manager (30-60 minutes)
+- Manager provides context, answers questions, and offers guidance
+- Clear communication of expectations and priorities
+- Regular feedback on performance and progress
+- Adjustment of onboarding plan based on new hire's needs and progress
+
+9.2 30-Day Check-In
+At the end of the first month, formal check-in occurs:
+
+WITH MANAGER:
+- Review 30-day goals and assess progress
+- Discuss what's going well and any challenges
+- Clarify expectations and adjust priorities if needed
+- Set goals for next 30 days
+- Address any concerns or questions
+
+WITH HR:
+- HR reaches out to check on onboarding experience
+- Ensure benefits enrollment is complete
+- Answer any policy or benefits questions
+- Gather feedback on onboarding process for continuous improvement
+- Address any concerns not raised with manager
+
+WITH ONBOARDING BUDDY:
+- Check in on integration and comfort level
+- Continue to provide informal support and guidance
+- Introduce to additional colleagues and resources
+
+SECTION 10: DAYS 31-90 - ACCELERATING CONTRIBUTION
+
+10.1 Increasing Independence and Ownership
+During months 2-3, new hires transition from learning mode to contributing mode:
+
+PERFORMANCE EXPECTATIONS:
+- Independently complete routine tasks and responsibilities
+- Contribute meaningfully to team projects and deliverables
+- Demonstrate proficiency in required systems and tools
+- Apply company processes and best practices
+- Proactively seek information and resources
+- Begin to identify opportunities for improvement
+
+CONTINUED DEVELOPMENT:
+- Participate in advanced training as appropriate
+- Expand network across organization
+- Seek stretch assignments to build skills
+- Request feedback from multiple sources
+- Reflect on learnings and areas for growth
+
+10.2 60-Day Check-In
+Mid-probation check-in to assess progress:
+- Manager evaluates performance against 60-day goals
+- Discuss strengths and development areas
+- Provide constructive feedback
+- Adjust support or expectations if needed
+- Confirm or address any concerns about fit or performance
+
+10.3 90-Day Review and End of Probationary Period
+At 90 days, formal review determines successful completion of probation:
+
+MANAGER CONDUCTS PERFORMANCE REVIEW:
+- Assess performance against all 90-day objectives
+- Evaluate competency demonstration in key areas
+- Review attendance, professionalism, and cultural fit
+- Provide written feedback
+- Discuss future goals and development plan
+
+HR REVIEW:
+- Ensure all onboarding tasks completed
+- Verify compliance training finished
+- Confirm benefits enrollment
+- Gather feedback on onboarding experience via survey
+
+OUTCOMES:
+- Successful Completion: Probation ends, employment continues, salary/benefits may adjust per policy
+- Extension: Additional 30-60 days to demonstrate competency (rare, with clear expectations)
+- Termination: Employment ends due to performance, fit, or other concerns
+
+CELEBRATION:
+- Recognize successful completion of onboarding
+- Celebrate contributions and welcome to team
+- Transition to regular performance management cycle
+
+================================================================================
+PART III: FIRST 90 DAYS - NEW EMPLOYEE INTEGRATION CHECKLIST
+================================================================================
+
+SECTION 11: ONBOARDING CHECKLISTS BY ROLE
+
+11.1 HR Onboarding Checklist
+
+PRE-ARRIVAL (Before Day One):
+□ Send offer letter and obtain signed acceptance
+□ Conduct background check and receive clearance
+□ Send welcome email with start date and logistics
+□ Provide new hire portal link for paperwork completion
+□ Assign onboarding buddy
+□ Coordinate with IT for equipment setup
+□ Coordinate with Facilities for workspace preparation
+□ Add to HRIS and email distribution lists
+□ Order business cards
+□ Prepare first-day agenda and materials
+□ Send team announcement about new hire
+
+DAY ONE:
+□ Greet new hire and provide welcome
+□ Conduct company orientation
+□ Facilitate benefits enrollment
+□ Complete I-9 verification
+□ Issue building badge and parking pass
+□ Provide Employee Handbook and obtain acknowledgment
+□ Collect signed confidentiality/IP agreement
+□ Introduce to onboarding buddy
+□ Check in at end of day
+
+WEEK ONE:
+□ Ensure all paperwork completed and submitted
+□ Verify benefits enrollment submitted
+□ Confirm system access granted
+□ Assign required training modules
+□ Monitor training completion
+
+FIRST 30 DAYS:
+□ Conduct 30-day HR check-in
+□ Address any benefits or policy questions
+□ Ensure compliance training completed
+□ Gather onboarding feedback
+
+DAYS 31-90:
+□ Send 60-day check-in email
+□ Coordinate 90-day review with manager
+□ Send new hire survey
+□ Update employee status from probationary to regular upon successful completion
+
+11.2 Manager Onboarding Checklist
+
+PRE-ARRIVAL:
+□ Prepare team for new hire's arrival
+□ Review and update job description and goals
+□ Develop 30-60-90 day objectives
+□ Coordinate with HR on start date logistics
+□ Identify and brief onboarding buddy
+□ Prepare workspace and welcome materials
+□ Schedule first-week meetings and training
+□ Plan team welcome activity
+
+DAY ONE:
+□ Welcome new hire personally
+□ Introduce to team members
+□ Host or arrange welcome lunch
+□ Conduct role orientation
+□ Review expectations and goals
+□ Provide system access and resources
+□ Introduce to onboarding buddy
+□ End-of-day check-in
+
+WEEK ONE:
+□ Conduct daily check-ins
+□ Provide role-specific training
+□ Facilitate stakeholder introductions
+□ Assign initial projects or tasks
+□ Schedule recurring 1-on-1 meetings
+□ Ensure attendance at team meetings
+□ End-of-week reflection and feedback
+
+WEEKS 2-4:
+□ Continue weekly 1-on-1 meetings
+□ Monitor progress on assignments
+□ Provide regular feedback and coaching
+□ Facilitate additional training as needed
+□ Include in team activities and decisions
+□ Conduct 30-day formal check-in
+□ Adjust onboarding plan as needed
+
+DAYS 31-60:
+□ Increase responsibility and independence
+□ Provide stretch assignments
+□ Offer constructive feedback
+□ Conduct 60-day check-in
+□ Address any performance concerns early
+
+DAYS 61-90:
+□ Finalize 90-day performance evaluation
+□ Complete probationary period review form
+□ Meet with new hire to discuss review
+□ Submit recommendation to HR (pass/extend/fail probation)
+□ Set goals for next review period
+
+11.3 New Hire Onboarding Checklist
+
+BEFORE DAY ONE:
+□ Complete new hire paperwork portal
+□ Review benefits materials
+□ Prepare questions for day one
+□ Review company website and recent news
+□ Prepare documents for I-9 verification
+□ Plan route to office and parking
+
+DAY ONE:
+□ Arrive on time with required documents
+□ Meet with HR for orientation
+□ Enroll in benefits (or schedule enrollment appointment)
+□ Sign required documents
+□ Meet manager and team
+□ Set up computer and phone with IT
+□ Meet onboarding buddy
+
+WEEK ONE:
+□ Complete all assigned training modules
+□ Schedule meetings with key stakeholders
+□ Begin learning systems and tools
+□ Ask questions freely
+□ Take notes and organize information
+□ Attend scheduled meetings
+□ Review Employee Handbook
+□ Begin first assignments
+
+FIRST 30 DAYS:
+□ Complete compliance training
+□ Meet with all identified stakeholders
+□ Demonstrate understanding of role and expectations
+□ Complete initial projects or tasks
+□ Provide feedback during 30-day check-in
+□ Build relationships with teammates
+□ Participate in company events
+
+DAYS 31-60:
+□ Take on increasing responsibility
+□ Work more independently
+□ Seek feedback proactively
+□ Identify learning needs and request training
+□ Contribute to team meetings and projects
+□ Expand network across organization
+
+DAYS 61-90:
+□ Demonstrate proficiency in core responsibilities
+□ Complete all assigned work on time with quality
+□ Prepare for 90-day review
+□ Reflect on accomplishments and growth
+□ Identify goals for next period
+□ Provide onboarding feedback to HR
+
+11.4 IT Onboarding Checklist
+
+PRE-ARRIVAL:
+□ Receive new hire information from HR
+□ Order and configure laptop
+□ Order and configure phone (if applicable)
+□ Set up email account
+□ Create user accounts for all required systems
+□ Configure VPN access
+□ Set up desk phone and voicemail
+□ Prepare welcome email with login credentials
+
+DAY ONE:
+□ Meet new hire and provide equipment
+□ Assist with initial login and setup
+□ Explain password requirements and security protocols
+□ Configure email client and settings
+□ Install required software and applications
+□ Connect to network printers
+□ Test video conferencing capability
+□ Provide IT support contact information
+
+WEEK ONE:
+□ Ensure all system access granted
+□ Verify successful login to all required applications
+□ Provide training on collaboration tools
+□ Address any technical issues
+□ Set up mobile device management (if applicable)
+
+ONGOING:
+□ Respond to IT support tickets promptly
+□ Conduct security awareness training
+□ Provide ongoing technical support
+
+SECTION 12: SPECIAL ONBOARDING CONSIDERATIONS
+
+12.1 Remote Employee Onboarding
+For employees working remotely:
+- Ship equipment to home address prior to start date
+- Conduct all orientation sessions virtually via video conference
+- Mail physical documents requiring signatures (or use electronic signature)
+- Assign local onboarding buddy when possible
+- Schedule additional check-ins to ensure connectedness
+- Facilitate virtual team introductions and coffee chats
+- Provide extra guidance on communication norms and tools
+- Send company swag and welcome package to home
+- Plan in-person visit to headquarters when feasible
+
+12.2 Executive Onboarding
+For director-level and above positions:
+- CEO or C-level executive serves as onboarding buddy
+- Customized onboarding plan extending to 6 months
+- Strategic overview sessions with all department leaders
+- Board of Directors introduction (if applicable)
+- External stakeholder introductions (investors, partners, key clients)
+- Media and communication training
+- Executive coaching or leadership development
+- More extensive pre-boarding and communication
+
+12.3 Intern and Temporary Employee Onboarding
+For interns and temps:
+- Abbreviated onboarding focused on essentials
+- Clear explanation of temporary nature and duration
+- Emphasis on learning goals and project work
+- Regular check-ins and mentorship
+- Opportunities to attend company events and network
+- End-of-assignment evaluation and feedback
+- Conversion to full-time explored for high performers
+
+SECTION 13: MEASURING ONBOARDING SUCCESS
+
+13.1 Onboarding Metrics and KPIs
+The Company tracks onboarding effectiveness through:
+- 90-day retention rate (goal: 95%+)
+- First-year retention rate (goal: 85%+)
+- Time-to-productivity (time until new hire reaches full performance)
+- New hire satisfaction scores (goal: 4.5/5.0+)
+- Manager satisfaction with onboarding process
+- Completion rate of onboarding tasks and training
+- 90-day performance review scores
+
+13.2 Continuous Improvement
+- Quarterly review of onboarding metrics
+- Annual new hire survey analyzing onboarding experience
+- Focus groups with recent hires to gather qualitative feedback
+- Manager feedback on process effectiveness
+- Benchmarking against industry best practices
+- Technology investments to streamline onboarding
+- Regular updates to onboarding materials and training
+
+---
+
+CONCLUSION
+
+Effective recruitment and onboarding are critical to attracting, selecting, and retaining top talent. This guide provides a comprehensive framework, but successful implementation requires commitment from all stakeholders. Every interaction with a candidate or new hire shapes their perception of the Company and impacts their decision to join and stay. By following these procedures and continuously improving our processes, we create exceptional experiences that drive employee engagement, performance, and retention.
+
+---
+
+ENTERPRISE SOLUTIONS CORPORATION
+Talent Acquisition and Human Resources Department
+
+Document Version: 3.0
+Effective Date: January 1, 2026
+Document Classification: Internal - Human Resources
+Distribution: HR, Hiring Managers, Recruiters
+
+Questions or Feedback:
+Talent Acquisition: recruiting@enterprisesolutions.com
+HR Operations: hronboarding@enterprisesolutions.com
+
+Forms and Templates Available:
+Company Intranet > HR > Recruiting & Onboarding > Forms

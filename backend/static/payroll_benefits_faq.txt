@@ -1,0 +1,943 @@
+PAYROLL AND BENEFITS - FREQUENTLY ASKED QUESTIONS
+
+Version: 4.2
+Last Updated: January 1, 2026
+Department: Human Resources - Compensation and Benefits
+
+TABLE OF CONTENTS
+1. Payroll Processing and Paychecks
+2. Compensation and Wages
+3. Time Tracking and Timesheets
+4. Deductions and Withholdings
+5. Health Insurance Benefits
+6. Retirement and 401(k) Plans
+7. Paid Time Off (PTO)
+8. Life and Disability Insurance
+9. Flexible Spending Accounts (FSA) and Health Savings Accounts (HSA)
+10. Employee Assistance Program (EAP)
+11. Professional Development and Tuition Assistance
+12. Additional Benefits and Perks
+13. Benefit Changes and Life Events
+14. Leaving the Company - Final Pay and COBRA
+
+================================================================================
+SECTION 1: PAYROLL PROCESSING AND PAYCHECKS
+================================================================================
+
+Q1.1: When is payday?
+A: Employees are paid bi-weekly on Friday for the two-week pay period ending the previous Saturday. If payday falls on a company holiday, payment is issued on the preceding business day. The payroll schedule for the entire year is available on the company intranet under HR Resources > Payroll Calendar.
+
+Q1.2: How do I access my pay stubs?
+A: Electronic pay stubs are available through the Workday portal. Log in to Workday, click on "Pay" from the main menu, then select "View Payslips." Pay stubs are posted on payday by 6:00 AM local time. Paper pay stubs are not provided unless specifically requested through HR.
+
+Q1.3: I didn't receive my paycheck. What should I do?
+A: First, verify that you have direct deposit set up correctly in Workday. If direct deposit is active, check with your bank as deposits can take 24-48 hours to post depending on the financial institution. If you still haven't received payment by end of business on payday, contact the Payroll Department immediately at payroll@enterprisesolutions.com or (555) 123-4580.
+
+Q1.4: How do I set up or change my direct deposit?
+A: Log in to Workday, click on "Pay" > "Payment Elections" > "Direct Deposit." You can add, edit, or delete bank accounts. You'll need your bank's routing number and your account number. Changes submitted by Wednesday at 5:00 PM will be effective for the next pay period. You can split your deposit between multiple accounts (up to 3).
+
+Q1.5: Can I receive a paper check instead of direct deposit?
+A: Direct deposit is strongly encouraged and is the standard payment method. Paper checks are available only in limited circumstances (e.g., temporary employees, new employees whose direct deposit hasn't been processed yet, or employees with documented banking access issues). Contact Payroll to request an exception.
+
+Q1.6: What should I do if there's an error on my paycheck?
+A: Review your pay stub carefully and identify the specific error. Contact your manager first to verify time records, then email the Payroll Department at payroll@enterprisesolutions.com with details of the discrepancy. Include your employee ID, pay period dates, and a clear description of the error. Payroll will investigate and issue a correction payment within 2-3 business days if an error is confirmed.
+
+Q1.7: Will I be paid for company holidays?
+A: Yes, full-time employees receive eight hours of holiday pay for each of the 11 company-observed holidays. Part-time employees working 20+ hours per week receive pro-rated holiday pay. To be eligible for holiday pay, you must work your scheduled day before and after the holiday unless you're on approved leave.
+
+Q1.8: How is overtime calculated and paid?
+A: Non-exempt employees receive overtime pay at 1.5 times their regular hourly rate for all hours worked over 40 in a workweek. Overtime must be pre-approved by your manager. The workweek runs Sunday through Saturday. Paid time off, holidays, and other non-worked hours do not count toward the 40-hour threshold for overtime calculation.
+
+================================================================================
+SECTION 2: COMPENSATION AND WAGES
+================================================================================
+
+Q2.1: When are performance reviews and salary increases?
+A: Annual performance reviews are conducted in the first quarter of each year (January-March), typically aligned with your hire date anniversary. Merit-based salary increases are determined during this process and become effective on April 1st. Mid-year adjustments may occur for promotions or significant role changes.
+
+Q2.2: How are salary ranges determined?
+A: The Company uses a comprehensive compensation philosophy based on market data, internal equity, job responsibilities, required skills and experience, geographic location, and performance. Salary ranges are reviewed annually and adjusted based on market trends. Contact your manager or HR Business Partner for information about your specific role's salary range.
+
+Q2.3: Do you offer cost-of-living adjustments?
+A: The Company reviews market conditions annually and adjusts salary structures as appropriate. Individual cost-of-living adjustments are not guaranteed but may be considered as part of the annual compensation review process, particularly for employees in high-cost areas or when significant market shifts occur.
+
+Q2.4: How do bonuses work?
+A: Bonus eligibility depends on your role and level:
+- Executive Team: Annual performance bonus (target 20-40% of base salary)
+- Management: Annual performance bonus (target 10-20% of base salary)
+- Individual Contributors: Annual discretionary bonus (typically 5-15% of base salary)
+- Sales Roles: Commission structure as outlined in compensation plan
+
+Bonuses are typically paid in Q1 of the following year and are based on both company performance and individual achievement of goals.
+
+Q2.5: How does the referral bonus program work?
+A: Employees receive a referral bonus for successfully referring candidates who are hired and complete their probationary period (90 days). Bonus amounts vary by position level:
+- Entry level: $1,000
+- Mid-level: $2,000
+- Senior/Leadership: $3,000
+
+Submit referrals through the Workday recruiting module. The referring employee must be actively employed when the bonus is paid. Bonuses are subject to taxes and paid in the pay period following the candidate's completion of probation.
+
+Q2.6: Can I discuss my salary with other employees?
+A: Yes, employees have the legal right to discuss wages and working conditions under the National Labor Relations Act. The Company does not prohibit or discourage such discussions. However, we ask employees to respect others' privacy and not pressure colleagues to disclose their compensation if they prefer not to.
+
+Q2.7: What happens to my pay if I'm promoted?
+A: Salary increases for promotions are effective on the date of promotion and will be reflected in the next payroll cycle. Your manager and HR will discuss your new compensation with you before the promotion is finalized. Promotion increases typically range from 5-15% depending on the role change, market data, and your current position in the salary range.
+
+Q2.8: How do commissions work for sales positions?
+A: Sales commissions are detailed in your Sales Compensation Plan document provided at hire or when you move into a sales role. Commissions are typically calculated monthly based on closed and booked revenue, and paid in the following month. Commission payments may be subject to clawback provisions if customers cancel or don't pay. Contact the Sales Operations team for specific questions about commission calculations.
+
+================================================================================
+SECTION 3: TIME TRACKING AND TIMESHEETS
+================================================================================
+
+Q3.1: Who needs to submit timesheets?
+A: All non-exempt (hourly) employees must submit timesheets through Workday for each pay period. Exempt (salaried) employees do not submit regular timesheets but must track and submit PTO, sick leave, and other absences. Failure to submit accurate timesheets on time may delay payment.
+
+Q3.2: When are timesheets due?
+A: Timesheets must be submitted by 5:00 PM on the Monday following the end of the pay period (which ends on Saturday). Managers must review and approve timesheets by 12:00 PM on Tuesday. Late timesheet submission may result in delayed payment or disciplinary action.
+
+Q3.3: How do I correct a timesheet error after it's been approved?
+A: Contact your manager immediately if you discover an error after approval. Your manager can request a timesheet correction through Workday. The Payroll team will process the correction in the next available pay period. Do not wait until the next pay period to report errors, as corrections must be documented promptly.
+
+Q3.4: Do I need to track meal breaks?
+A: Yes, non-exempt employees must clock out for meal breaks of 30 minutes or longer. Meal breaks are unpaid. Paid rest breaks of 15 minutes or less should not be clocked out. Ensure you take required breaks according to your state's labor laws and company policy.
+
+Q3.5: What if I forget to clock in or out?
+A: Notify your manager immediately. Your manager can correct missed punches in Workday. Document the correct times and reason for the missed punch. Repeated failures to clock in/out properly may result in disciplinary action.
+
+Q3.6: Can I round my time on timesheets?
+A: No, you must record actual time worked to the nearest minute. The system may round to the nearest quarter hour for calculation purposes, but you should enter precise times. Never round up time you didn't actually work, as this constitutes time theft.
+
+Q3.7: How do I report overtime hours?
+A: Record all hours worked on your timesheet, including overtime. Overtime (over 40 hours per week) will automatically be calculated and paid at the appropriate rate. Remember that overtime must be pre-approved by your manager. Working unauthorized overtime may result in disciplinary action even though you'll be paid for the time.
+
+Q3.8: What if I work through my lunch break?
+A: Non-exempt employees must take meal breaks as scheduled. If business needs require you to work through lunch, notify your manager immediately and record the time as worked on your timesheet. This should be rare and only done when absolutely necessary. You'll be paid for the time but should take a break later in the day if possible.
+
+================================================================================
+SECTION 4: DEDUCTIONS AND WITHHOLDINGS
+================================================================================
+
+Q4.1: What deductions are taken from my paycheck?
+A: Standard deductions include:
+- Federal income tax
+- State income tax (if applicable)
+- Social Security tax (6.2% of wages up to annual limit)
+- Medicare tax (1.45% of all wages, plus 0.9% on wages over $200,000)
+- Health insurance premiums (if enrolled)
+- Dental and vision insurance premiums (if enrolled)
+- 401(k) contributions (if enrolled)
+- FSA/HSA contributions (if enrolled)
+- Other voluntary deductions (life insurance, disability, parking, etc.)
+
+Q4.2: How do I change my tax withholding?
+A: Update your W-4 form through Workday under "Pay" > "Tax Withholding Elections" > "Federal/State Tax Withholding." Changes can be made at any time and will take effect within 1-2 pay periods. Consider consulting a tax professional if you're unsure about appropriate withholding levels.
+
+Q4.3: Why did my paycheck decrease when I enrolled in benefits?
+A: Benefit premiums are deducted from your paycheck, which reduces your net (take-home) pay. Review your pay stub to see the specific deductions. Remember that benefits like 401(k) contributions and HSA contributions are pre-tax, which may reduce your taxable income even though your net pay is lower.
+
+Q4.4: Can I stop or change my 401(k) contributions at any time?
+A: Yes, you can start, stop, increase, or decrease your 401(k) contribution percentage at any time through Workday. Changes typically take effect within 1-2 pay periods. However, once you make a contribution, that money cannot be withdrawn without penalty until you leave the company or reach age 59½ (except in specific hardship situations).
+
+Q4.5: What is FICA and why is it deducted?
+A: FICA (Federal Insurance Contributions Act) includes Social Security and Medicare taxes. You pay 6.2% for Social Security (on wages up to $168,600 in 2024) and 1.45% for Medicare (on all wages). High earners pay an additional 0.9% Medicare tax on wages over $200,000. The company matches your Social Security and Medicare contributions.
+
+Q4.6: Why does my paycheck vary from pay period to pay period?
+A: Paychecks can vary due to:
+- Differences in hours worked (for non-exempt employees)
+- Overtime hours
+- Unpaid time off
+- Changes in benefit deductions
+- Bonus or commission payments
+- Changes in tax withholding
+- Annual benefit premium changes
+- Pre-tax deduction adjustments
+
+Review your pay stub carefully to identify specific variances.
+
+Q4.7: Can I have a garnishment or wage levy removed?
+A: Wage garnishments are court-ordered deductions (for child support, tax levies, creditor judgments, etc.). The Company is legally required to comply with garnishment orders. To remove a garnishment, you must resolve the underlying obligation with the issuing authority (court, IRS, state agency, etc.). Contact the Payroll Department if you believe a garnishment is in error.
+
+Q4.8: What is imputed income and why is it on my pay stub?
+A: Imputed income is the value of non-cash benefits that the IRS considers taxable income. Common examples include:
+- Group term life insurance over $50,000
+- Personal use of company vehicle
+- Domestic partner health insurance
+- Moving expense reimbursements (in most cases)
+
+You don't receive this as cash, but it's added to your taxable income and you pay taxes on it.
+
+================================================================================
+SECTION 5: HEALTH INSURANCE BENEFITS
+================================================================================
+
+Q5.1: When am I eligible for health insurance?
+A: Full-time employees (30+ hours per week) are eligible for health insurance benefits on the first day of the month following 30 days of employment. For example, if you start on January 15, your benefits begin March 1. New employees must enroll within 30 days of hire or wait until the next annual open enrollment period.
+
+Q5.2: What health insurance plans are available?
+A: The Company offers three medical plan options:
+- PPO Plan: Higher premiums, lower deductibles, broader network, out-of-network coverage
+- High Deductible Health Plan (HDHP) with HSA: Lower premiums, higher deductibles, HSA-eligible
+- HMO Plan: Moderate premiums, referral requirements, more limited network
+
+All plans include prescription drug coverage. Detailed plan documents and comparison charts are available in the Benefits Portal.
+
+Q5.3: How much do health insurance premiums cost?
+A: The Company pays 80% of the employee-only premium. Employees pay 20% plus the full cost of dependent coverage. Approximate monthly employee costs (2026):
+- Employee Only: PPO $120, HDHP $60, HMO $90
+- Employee + Spouse: PPO $380, HDHP $220, HMO $310
+- Employee + Children: PPO $340, HDHP $200, HMO $280
+- Employee + Family: PPO $480, HDHP $280, HMO $390
+
+Premiums are deducted pre-tax from each paycheck.
+
+Q5.4: Can I add my domestic partner to my health insurance?
+A: Yes, the Company recognizes domestic partnerships. Your partner must meet the definition of a domestic partner as outlined in the benefits plan documents (typically including cohabitation, financial interdependence, and registration with applicable authorities). The value of domestic partner coverage (unlike spouse coverage) may be considered imputed income for tax purposes.
+
+Q5.5: What is the difference between a deductible, copay, and coinsurance?
+A: - Deductible: The amount you pay out-of-pocket before insurance starts paying (e.g., $1,500/year)
+- Copay: A fixed amount you pay for specific services (e.g., $25 for doctor visit)
+- Coinsurance: The percentage you pay after meeting the deductible (e.g., 20% of hospital bill)
+- Out-of-pocket Maximum: The most you'll pay in a year; after this, insurance pays 100%
+
+Q5.6: Does my health insurance work out of state or internationally?
+A: PPO and HDHP plans typically have nationwide coverage, though you may pay more for out-of-network care. HMO plans have limited out-of-area coverage (emergency care only). For international travel, coverage is generally limited to emergency care. Consider purchasing travel health insurance for extended international trips. Review your specific plan documents for details.
+
+Q5.7: What happens to my health insurance if I go on leave?
+A: - Paid Leave: Benefits continue normally; premiums continue to be deducted from paychecks
+- FMLA Leave: Company maintains coverage; you must pay your premium share (billed monthly if unpaid leave)
+- Other Unpaid Leave: May continue coverage up to 18 months at your expense through COBRA-like continuation
+Contact HR Benefits before taking extended leave to understand your specific situation.
+
+Q5.8: How do I file a health insurance claim?
+A: Most claims are filed electronically by your healthcare provider. You typically don't need to file claims yourself. If you need to file manually:
+1. Obtain a claim form from the insurance company website or Benefits Portal
+2. Complete patient and insurance information sections
+3. Have your provider complete their section
+4. Submit to the insurance company at the address on the form
+5. Keep copies for your records
+
+Track your claims through the insurance company's website or mobile app.
+
+Q5.9: What is covered under preventive care?
+A: All plans cover preventive care at 100% (no cost to you) when you use in-network providers. Covered services include:
+- Annual physical exams
+- Well-woman visits and mammograms
+- Immunizations and vaccines
+- Cancer screenings (colonoscopy, prostate, skin)
+- Blood pressure and cholesterol testing
+- Depression and diabetes screening
+- Preventive care for children
+
+Review your plan's preventive care schedule for specific details.
+
+Q5.10: What if my insurance claim is denied?
+A: If a claim is denied:
+1. Review the Explanation of Benefits (EOB) to understand the denial reason
+2. Verify the service is covered under your plan
+3. Ensure your provider is in-network and filed correctly
+4. Contact the insurance company to discuss the denial
+5. If appropriate, file an appeal following the process outlined in your EOB
+6. Contact the HR Benefits team if you need assistance
+
+You have the right to appeal denials within the timeframes specified by your plan.
+
+================================================================================
+SECTION 6: RETIREMENT AND 401(K) PLANS
+================================================================================
+
+Q6.1: When can I enroll in the 401(k) plan?
+A: All employees are eligible to participate in the 401(k) plan immediately upon hire. You can enroll at any time through Workday under "Benefits" > "Retirement." If you don't actively enroll, you'll be automatically enrolled at 3% of your salary after 30 days of employment (you can opt out or change this percentage).
+
+Q6.2: How much does the company match?
+A: The Company matches 100% of your contributions up to 4% of your salary, plus 50% of your next 2% of contributions. This means:
+- You contribute 4% → Company contributes 4% (total 8%)
+- You contribute 6% → Company contributes 5% (total 11%)
+- Maximum match: 5% of your salary
+
+You're always 100% vested in your own contributions. Company match vests 20% per year over 5 years.
+
+Q6.3: What does "vesting" mean?
+A: Vesting means ownership. You're always 100% vested in your own 401(k) contributions. Company matching contributions vest according to this schedule:
+- Less than 1 year: 0% vested
+- 1 year: 20% vested
+- 2 years: 40% vested
+- 3 years: 60% vested
+- 4 years: 80% vested
+- 5 years: 100% vested
+
+If you leave before being fully vested, you forfeit the unvested portion of company contributions.
+
+Q6.4: What investment options are available?
+A: The 401(k) plan offers approximately 25 investment options including:
+- Target-date retirement funds (recommended for hands-off investing)
+- Index funds (U.S. and international stocks)
+- Actively managed equity funds
+- Bond funds
+- Stable value/money market funds
+- Company stock (limited to 20% of account)
+
+You can allocate your contributions across multiple funds. Investment education resources and tools are available through the Fidelity website.
+
+Q6.5: Can I take a loan from my 401(k)?
+A: Yes, you may borrow up to 50% of your vested balance or $50,000, whichever is less. Loan terms:
+- Minimum loan: $1,000
+- Maximum term: 5 years (15 years for home purchase)
+- Interest rate: Prime rate + 1%
+- Repayment: Through automatic payroll deduction
+- You pay interest to yourself, but miss out on potential investment growth
+
+Apply for loans through the Fidelity website. There's a $75 initiation fee and $25 annual maintenance fee.
+
+Q6.6: What are the 401(k) contribution limits?
+A: 2026 IRS limits:
+- Employee contributions: $23,500 per year (up from $23,000 in 2024)
+- Catch-up contributions (age 50+): Additional $7,500 per year
+- Total contributions (employee + employer): $69,000 per year
+
+These limits are per person, not per employer, so if you had a 401(k) at a previous employer in the same year, contributions to both accounts count toward the limit.
+
+Q6.7: What happens to my 401(k) when I leave the company?
+A: You have several options:
+- Leave it: Keep your money in the company plan if your balance exceeds $5,000
+- Roll over: Transfer to your new employer's 401(k) or to an IRA (typically the best option)
+- Cash out: Take a taxable distribution (subject to taxes and 10% penalty if under age 59½) - not recommended
+- Balances under $1,000 are automatically cashed out; $1,000-$5,000 are rolled to an IRA
+
+Q6.8: Can I make Roth 401(k) contributions?
+A: Yes, you can contribute to a Roth 401(k), traditional 401(k), or split your contributions between both. Key differences:
+- Roth: After-tax contributions, tax-free withdrawals in retirement
+- Traditional: Pre-tax contributions, taxed withdrawals in retirement
+- Company match always goes into traditional 401(k) regardless of your choice
+
+Consider your current vs. expected retirement tax bracket when deciding. You can change your election at any time.
+
+Q6.9: How do I check my 401(k) balance and manage investments?
+A: Access your account at www.netbenefits.com/enterprisesolutions or through the Fidelity mobile app. You can:
+- View balances and transaction history
+- Change contribution percentages
+- Adjust investment allocations
+- Request loans or distributions
+- Update beneficiaries
+- Access retirement planning tools
+
+Your login credentials were sent when you enrolled or can be reset online.
+
+Q6.10: Who should I name as my beneficiary?
+A: You designate beneficiaries through the Fidelity website. Important points:
+- If married, your spouse is automatically your primary beneficiary unless they sign a waiver
+- You can name contingent (backup) beneficiaries
+- Keep beneficiaries updated after major life events (marriage, divorce, birth, death)
+- Beneficiary designations override your will
+- You can name multiple beneficiaries and specify percentages
+
+Review and update your beneficiaries annually or after life changes.
+
+================================================================================
+SECTION 7: PAID TIME OFF (PTO)
+================================================================================
+
+Q7.1: How much PTO do I get?
+A: Full-time employees accrue PTO based on years of service:
+- 0-2 years: 15 days (120 hours) per year
+- 3-5 years: 20 days (160 hours) per year
+- 6-10 years: 25 days (200 hours) per year
+- 11-15 years: 28 days (224 hours) per year
+- 16+ years: 30 days (240 hours) per year
+
+PTO accrues each pay period and is available to use as you accrue it (after 90-day waiting period for new hires).
+
+Q7.2: When can I start using my PTO?
+A: New employees can begin using accrued PTO after completing 90 days of employment. PTO accrues from your first day, so you'll have a bank of PTO available after the waiting period.
+
+Q7.3: Can I carry over unused PTO to next year?
+A: Yes, you may carry over up to 40 hours (5 days) of unused PTO to the next calendar year. Carried-over PTO must be used within the first six months of the new year. PTO exceeding 40 hours is forfeited at year-end unless you have manager approval for special circumstances.
+
+Q7.4: How do I request PTO?
+A: Submit PTO requests through Workday:
+1. Click "Time Off" from main menu
+2. Select "Request Time Off"
+3. Choose dates and PTO type
+4. Add notes explaining reason (optional but helpful)
+5. Submit for manager approval
+
+Request planned time off at least 2 weeks in advance. Your manager will approve based on business needs and team coverage.
+
+Q7.5: What if I need unplanned time off for illness or emergency?
+A: Notify your manager as soon as possible, preferably before your scheduled start time. Submit a time-off request in Workday as soon as you're able. You'll use accrued PTO for unplanned absences. Sick leave may also be available depending on your state.
+
+Q7.6: Will I be paid for unused PTO when I leave the company?
+A: Yes, you'll receive payment for all accrued, unused PTO in your final paycheck, calculated at your base pay rate at the time of separation. This applies whether you resign or are terminated (except for termination due to gross misconduct).
+
+Q7.7: What happens to my PTO if I go on FMLA leave?
+A: You must use your accrued PTO concurrently with FMLA leave. Once your PTO is exhausted, the remainder of your FMLA leave will be unpaid. PTO does not accrue during extended unpaid leave periods (beyond 30 days).
+
+Q7.8: Can my manager deny my PTO request?
+A: Managers can deny PTO requests based on business needs, such as:
+- Insufficient coverage during your absence
+- Blackout periods during critical business times
+- Multiple team members requesting the same dates
+- Short notice (less than 2 weeks) for non-emergencies
+
+If your request is denied, work with your manager to find alternative dates.
+
+Q7.9: What is the PTO accrual cap?
+A: Your PTO balance cannot exceed 1.5 times your annual accrual amount. Once you hit the cap, you'll stop accruing PTO until your balance falls below the cap. This encourages regular use of PTO throughout the year. Example: if you accrue 160 hours/year, your cap is 240 hours.
+
+Q7.10: How do I check my PTO balance?
+A: View your current PTO balance in Workday under "Time Off" > "View My Time Off Balance." Your balance is also shown on your pay stub each pay period. The balance reflects PTO accrued minus PTO used and scheduled.
+
+================================================================================
+SECTION 8: LIFE AND DISABILITY INSURANCE
+================================================================================
+
+Q8.1: Does the company provide life insurance?
+A: Yes, the Company provides basic life insurance at no cost to full-time employees. Coverage is 1x your annual salary up to a maximum of $200,000. You can purchase supplemental life insurance for yourself, your spouse, and dependent children during enrollment periods.
+
+Q8.2: How much supplemental life insurance can I purchase?
+A: You can purchase additional life insurance coverage:
+- Employee: Up to 5x salary, maximum $500,000 (amounts over $250,000 require medical underwriting)
+- Spouse/Domestic Partner: $10,000, $25,000, $50,000, or $100,000
+- Dependent Children: $10,000 or $20,000 (covers all eligible children)
+
+Premiums are based on age and coverage amount, deducted from your paycheck post-tax.
+
+Q8.3: Do I need to designate beneficiaries for my life insurance?
+A: Yes, you must designate beneficiaries for your life insurance through Workday under "Benefits" > "Life Insurance" > "Beneficiaries." You can name primary and contingent beneficiaries. Update your beneficiaries after major life events (marriage, divorce, birth, death). Life insurance beneficiary designations are separate from your 401(k) beneficiaries.
+
+Q8.4: What is short-term disability insurance?
+A: Short-term disability (STD) insurance replaces a portion of your income if you're unable to work due to a non-work-related illness or injury. The Company provides STD coverage at no cost to full-time employees:
+- Benefit: 60% of base salary
+- Elimination period: 7 days
+- Maximum duration: 90 days
+- Maximum benefit: $2,000 per week
+
+File claims through the insurance carrier's website or by contacting HR.
+
+Q8.5: What is long-term disability insurance?
+A: Long-term disability (LTD) insurance provides income replacement if you're disabled for an extended period. The Company provides LTD coverage at no cost to full-time employees:
+- Benefit: 60% of base salary
+- Elimination period: 90 days (after STD expires)
+- Maximum duration: To age 65 or Social Security normal retirement age
+- Maximum benefit: $10,000 per month
+
+LTD requires ongoing proof of disability and may be offset by Social Security disability benefits.
+
+Q8.6: How do I file a disability claim?
+A: To file a disability claim:
+1. Notify your manager and HR immediately
+2. Contact the insurance carrier (information provided by HR)
+3. Complete the employee portion of the claim form
+4. Have your physician complete the medical portion
+5. Submit all required documentation to the carrier
+6. The carrier will review and approve/deny within 30 days
+
+HR can assist you with the process. Continue to use sick leave/PTO during the elimination period.
+
+Q8.7: Will I continue to receive benefits while on disability leave?
+A: Yes, your health, dental, and vision insurance continue during approved disability leave. You must continue to pay your portion of premiums. If you're on unpaid leave, you'll be billed monthly for premiums. Life insurance and 401(k) match typically continue. PTO does not accrue during long-term disability.
+
+Q8.8: What is the difference between short-term and long-term disability?
+A: Short-term disability (STD) covers the initial period of disability (after a 7-day waiting period, up to 90 days). Long-term disability (LTD) begins after you've been disabled for 90 days and can continue until age 65. Many employees transition from STD to LTD for extended disabilities. Both are provided by the Company at no cost.
+
+================================================================================
+SECTION 9: FLEXIBLE SPENDING ACCOUNTS (FSA) AND HEALTH SAVINGS ACCOUNTS (HSA)
+================================================================================
+
+Q9.1: What is a Flexible Spending Account (FSA)?
+A: An FSA allows you to set aside pre-tax dollars to pay for eligible healthcare or dependent care expenses. You elect an annual amount during open enrollment, which is deducted in equal amounts from each paycheck. FSAs are "use it or lose it" - unused funds are forfeited at year-end (with a $610 grace amount that can carry over).
+
+Q9.2: What's the difference between Healthcare FSA and Dependent Care FSA?
+A: - Healthcare FSA: For medical, dental, vision expenses not covered by insurance (co-pays, prescriptions, glasses, etc.)
+  - 2026 limit: $3,200 per year
+  - Available immediately (entire election amount)
+  - Can carry over $610 to next year
+
+- Dependent Care FSA: For child care or elder care expenses while you work
+  - 2026 limit: $5,000 per household per year
+  - Available as funds accrue
+  - No carry-over (use it or lose it)
+
+Q9.3: What is a Health Savings Account (HSA)?
+A: An HSA is a tax-advantaged savings account available only to employees enrolled in the High Deductible Health Plan (HDHP). HSA advantages:
+- Contributions are pre-tax
+- Company contributes: $500/year (employee only) or $1,000/year (family)
+- Funds roll over year to year (no use-it-or-lose-it)
+- Withdrawals for qualified medical expenses are tax-free
+- Can invest funds for long-term growth
+- Account is yours even if you leave the company
+
+Q9.4: How much can I contribute to an HSA?
+A: 2026 IRS limits:
+- Individual coverage: $4,300 per year
+- Family coverage: $8,550 per year
+- Catch-up (age 55+): Additional $1,000 per year
+
+These limits include both your contributions and the Company contribution. If you're enrolled mid-year, your limit is prorated.
+
+Q9.5: Can I have both an FSA and an HSA?
+A: No, you cannot have both a Healthcare FSA and an HSA in the same year. If you're enrolled in the HDHP with an HSA, you can only have a Limited Purpose FSA (for dental and vision expenses only) or a Dependent Care FSA. Choose carefully during open enrollment based on your needs.
+
+Q9.6: What expenses are eligible for FSA/HSA?
+A: Eligible expenses include:
+- Medical co-pays and deductibles
+- Prescription medications
+- Dental and vision care
+- Hearing aids
+- Chiropractic care
+- Physical therapy
+- Medical equipment and supplies
+- Over-the-counter medications (with prescription)
+- Insulin (without prescription)
+
+Not eligible: cosmetic procedures, gym memberships, vitamins (unless prescribed). See IRS Publication 502 for complete list.
+
+Q9.7: How do I use my FSA/HSA funds?
+A: You'll receive a debit card linked to your FSA or HSA account. Use the card to pay for eligible expenses at pharmacies, doctor's offices, etc. Alternatively, pay out-of-pocket and submit receipts for reimbursement through the administrator's website or mobile app. Keep all receipts for your records in case of audit.
+
+Q9.8: What happens to my FSA if I leave the company?
+A: Healthcare FSA: You can continue coverage through COBRA for up to 18 months by paying monthly premiums, or you forfeit remaining funds. You have 90 days after termination to submit claims for expenses incurred before your last day.
+
+Dependent Care FSA: You can submit claims for expenses incurred through your last day of employment within 90 days of termination. No continuation available.
+
+Q9.9: What happens to my HSA if I leave the company?
+A: The HSA is your account and goes with you. You can:
+- Continue using it for qualified medical expenses tax-free
+- Roll it over to a new employer's HSA
+- Keep it invested for retirement healthcare expenses
+- At age 65, withdraw funds for any purpose (taxed as income if not for medical expenses)
+
+Q9.10: Can I change my FSA election during the year?
+A: Generally no - FSA elections are locked in for the plan year. You can only change elections if you have a qualifying life event (marriage, divorce, birth/adoption, change in employment status, significant change in dependent care costs). You must request the change within 30 days of the qualifying event.
+
+================================================================================
+SECTION 10: EMPLOYEE ASSISTANCE PROGRAM (EAP)
+================================================================================
+
+Q10.1: What is the Employee Assistance Program?
+A: The EAP is a free, confidential counseling and support service available to all employees and their household family members. Services include short-term counseling, work-life resources, legal and financial consultations, and referrals to community resources.
+
+Q10.2: What services does the EAP provide?
+A: EAP services include:
+- Mental health counseling (up to 8 sessions per issue per year)
+- Substance abuse assessment and referral
+- Relationship and family counseling
+- Stress management and coping strategies
+- Grief and loss support
+- Financial coaching and debt management
+- Legal consultations (30 minutes per issue)
+- Elder care resources
+- Childcare resources
+- Work-life balance support
+- Crisis intervention
+
+Q10.3: Is the EAP really confidential?
+A: Yes, all EAP services are completely confidential. The Company does not receive any information about who uses the EAP or what issues are discussed. The only exceptions are situations involving imminent danger to self or others, child/elder abuse, or court orders.
+
+Q10.4: How do I access EAP services?
+A: Contact the EAP 24/7:
+- Phone: 1-800-XXX-XXXX
+- Website: www.eapservices.com (Company code: ENT123)
+- Mobile app: Download "EAP Connect"
+
+Services are available in-person, by phone, video, or online chat. No referral or pre-approval needed.
+
+Q10.5: Does using the EAP cost anything?
+A: No, EAP services are 100% free to employees and household members. The Company pays for the program. If you need services beyond what the EAP provides (e.g., more than 8 counseling sessions), the EAP will help you transition to your health insurance or community resources.
+
+Q10.6: Can my family members use the EAP?
+A: Yes, all household family members are eligible, including spouses, domestic partners, children, parents, and others living in your home. They can access the EAP independently and confidentially without your knowledge or involvement.
+
+Q10.7: Will using the EAP affect my employment?
+A: No, using the EAP will not affect your employment, performance evaluations, or career opportunities. The Company encourages employees to use the EAP for support. Seeking help is a sign of strength, not weakness.
+
+Q10.8: What if I need more help than the EAP provides?
+A: The EAP provides short-term support and can connect you with long-term resources. EAP counselors will help you find appropriate ongoing care through your health insurance, community mental health services, or other providers. They can also help you understand your insurance coverage and benefits.
+
+================================================================================
+SECTION 11: PROFESSIONAL DEVELOPMENT AND TUITION ASSISTANCE
+================================================================================
+
+Q11.1: Does the company offer tuition assistance?
+A: Yes, full-time employees who have completed one year of service are eligible for tuition assistance up to $5,250 per calendar year (tax-free under IRS rules). This covers undergraduate and graduate degree programs, professional certifications, and job-related courses from accredited institutions.
+
+Q11.2: What programs are eligible for tuition assistance?
+A: Eligible programs must be:
+- From accredited colleges, universities, or training providers
+- Related to your current role or potential career path with the Company
+- Courses leading to a degree, certification, or specific job skills
+- Successfully completed with a grade of C or higher (or equivalent)
+
+Not eligible: hobby courses, non-accredited programs, application fees, parking, textbooks (unless part of tuition).
+
+Q11.3: How do I apply for tuition assistance?
+A: Submit a Tuition Assistance Request Form (available on the intranet) to your manager and HR before the course begins. Include:
+- Course description and syllabus
+- How it relates to your job/career development
+- Tuition cost and payment schedule
+- School accreditation information
+
+Approval is typically provided within 2 weeks. You pay tuition upfront and are reimbursed upon successful completion.
+
+Q11.4: What if I leave the company after receiving tuition assistance?
+A: If you voluntarily leave within 12 months of receiving tuition reimbursement, you must repay:
+- 100% if you leave within 6 months
+- 50% if you leave between 6-12 months
+- Nothing if you stay 12+ months or are involuntarily terminated
+
+Repayment is deducted from your final paycheck or billed if insufficient funds remain.
+
+Q11.5: What professional development opportunities are available?
+A: The Company offers numerous development opportunities:
+- LinkedIn Learning: Unlimited access to thousands of online courses
+- Conference attendance: Funding for industry conferences and workshops
+- Professional certifications: Financial support for job-related certifications (PMP, CPA, CFA, etc.)
+- Leadership development: Internal programs for emerging and established leaders
+- Lunch and learn sessions: Monthly educational sessions on various topics
+- Mentorship program: Formal mentoring relationships
+- Cross-functional projects: Opportunities to work across departments
+- External training: Approval for job-related seminars and workshops
+
+Q11.6: How much funding is available for conferences and training?
+A: Annual professional development budgets vary by level:
+- Individual contributors: $1,500
+- Senior individual contributors: $2,500
+- Managers: $3,500
+- Directors and above: $5,000
+
+Funds cover registration, travel, hotel, and meals for approved professional development activities. Submit requests through your manager at least 4 weeks before the event.
+
+Q11.7: Does the company support professional certifications?
+A: Yes, the Company will pay for:
+- Certification exam fees
+- Study materials and prep courses
+- Recertification and maintenance fees
+- Membership in one professional organization ($300/year max)
+
+Certifications must be relevant to your role. You may be required to repay costs if you voluntarily leave within 12 months of reimbursement.
+
+Q11.8: How do I access LinkedIn Learning?
+A: All employees have free access to LinkedIn Learning:
+1. Go to learning.linkedin.com
+2. Sign in with your work email
+3. Browse thousands of courses on business, technology, and creative skills
+4. Learning progress may be visible to your manager if you choose to share
+
+Q11.9: Is there support for career development and advancement?
+A: Yes, the Company is committed to internal career growth:
+- Internal job postings: Employees get early access to open positions
+- Career development conversations: Discuss goals with your manager quarterly
+- Individual Development Plans (IDPs): Create plans for skill building and advancement
+- Mentorship program: Connect with leaders across the organization
+- Succession planning: High-potential employees are identified for advancement
+- Promotion opportunities: Merit-based promotions and advancement
+
+Q11.10: Can I job shadow or rotate to other departments?
+A: Yes, the Company encourages cross-functional learning:
+- Job shadowing: Spend time with colleagues in other roles to learn their work
+- Informational interviews: Meet with leaders to discuss their career paths
+- Project rotations: Join short-term projects in other departments
+- Internal internships: Some departments offer short-term rotation opportunities
+
+Discuss interests with your manager and HR to explore opportunities.
+
+================================================================================
+SECTION 12: ADDITIONAL BENEFITS AND PERKS
+================================================================================
+
+Q12.1: What other benefits does the company offer?
+A: Additional benefits include:
+- Commuter benefits: Pre-tax transit and parking (up to IRS limits)
+- Gym membership discount: 30% off at partnering gyms
+- Wellness program: Incentives for health activities
+- Employee discounts: Discounts on products and services from partner companies
+- Free snacks and beverages: In-office break rooms
+- Company events: Holiday parties, summer picnics, team-building activities
+- Volunteer time off: 16 hours paid time per year for volunteer activities
+- Employee referral bonuses: $1,000-$3,000 for successful referrals
+- Sabbatical: 4 weeks paid sabbatical after 10 years of service
+
+Q12.2: How do commuter benefits work?
+A: Commuter benefits allow you to pay for transit passes and parking with pre-tax dollars, saving approximately 30% through tax savings. 2026 monthly limits:
+- Transit pass: $315
+- Parking: $315
+
+Enroll through Workday and order transit passes or parking through the commuter benefits provider. Deductions are taken from each paycheck.
+
+Q12.3: What is the wellness program?
+A: The wellness program rewards healthy behaviors:
+- Complete a health assessment: Earn $100
+- Participate in wellness challenges: Earn up to $300/year
+- Achieve fitness goals: Track activities and earn points
+- Attend wellness seminars: Learn about nutrition, stress management, etc.
+- Biometric screening: Know your health numbers
+
+Rewards are deposited to your HSA or provided as gift cards. Participation is voluntary but encouraged.
+
+Q12.4: How does the volunteer time off program work?
+A: All employees receive 16 hours (2 days) of paid volunteer time per year to support charitable causes. Submit requests through Workday like regular PTO. Volunteer time:
+- Must be with qualified non-profit organizations
+- Cannot be rolled over to next year
+- Cannot be paid out at termination
+- Can be used in 2-hour increments
+
+Some departments organize team volunteer events that count toward your volunteer time.
+
+Q12.5: What is the sabbatical program?
+A: Employees who reach 10 years of continuous service are eligible for a 4-week paid sabbatical. Sabbatical benefits:
+- 4 consecutive weeks of paid time off (separate from PTO)
+- Available once every 10 years
+- Must be taken within 2 years of eligibility
+- Requires 3 months advance notice
+- Used for rest, travel, personal projects, or any purpose
+
+The sabbatical program recognizes long-term commitment to the Company.
+
+Q12.6: Are there employee discount programs?
+A: Yes, employees receive discounts from numerous partners:
+- Technology: Dell, Apple, HP, Best Buy (10-25% off)
+- Wireless carriers: AT&T, Verizon, T-Mobile (10-20% off)
+- Insurance: Auto and home insurance discounts
+- Entertainment: Tickets to sporting events, concerts, theme parks
+- Retail: Various stores and online retailers
+- Car rentals: National, Enterprise, Hertz (15-20% off)
+
+Access discount codes through the Employee Portal > Perks & Discounts.
+
+Q12.7: Does the company offer backup childcare?
+A: Yes, the Company provides access to backup childcare services through Bright Horizons. When your regular childcare falls through, you can:
+- Use in-home backup care: Vetted sitter comes to your home
+- Use a backup care center: Drop off at a nearby center
+- Get 10 subsidized backup care days per year ($15/day copay)
+
+Register through the HR Portal and request care as needed (24 hours advance notice preferred).
+
+Q12.8: Is there a company store or branded merchandise?
+A: Yes, the Company Store offers branded apparel, accessories, and gift items. Employees receive:
+- $50 annual credit for free merchandise
+- 20% discount on all purchases
+- Occasional free item giveaways
+- Onboarding welcome gift package
+
+Access the store at companystore.enterprisesolutions.com.
+
+================================================================================
+SECTION 13: BENEFIT CHANGES AND LIFE EVENTS
+================================================================================
+
+Q13.1: When is open enrollment?
+A: Annual open enrollment typically runs from November 1-30 for benefits effective January 1 of the following year. During open enrollment, you can:
+- Enroll in or change health insurance plans
+- Enroll in or change FSA/HSA elections
+- Add or remove dependents
+- Enroll in or change supplemental life insurance
+- Update beneficiaries
+
+You'll receive communications and resources to help you make informed decisions.
+
+Q13.2: What is a qualifying life event?
+A: A qualifying life event (QLE) allows you to make benefit changes outside of open enrollment. QLEs include:
+- Marriage or domestic partnership
+- Divorce or legal separation
+- Birth or adoption of a child
+- Death of dependent or spouse
+- Loss of other health coverage
+- Change in employment status (full-time to part-time)
+- Dependent ages out of coverage
+- Change in dependent's eligibility
+
+You must report QLEs to HR within 30 days and provide supporting documentation.
+
+Q13.3: How do I add a new baby to my health insurance?
+A: Congratulations! To add your newborn:
+1. Notify HR within 30 days of birth
+2. Complete the Dependent Enrollment Form in Workday
+3. Provide a copy of the birth certificate
+4. Coverage is retroactive to the date of birth
+5. You'll see premium deductions for family coverage on upcoming paychecks
+
+Also remember to update your life insurance and 401(k) beneficiaries.
+
+Q13.4: How do I add my new spouse to my benefits?
+A: To add a spouse after marriage:
+1. Notify HR within 30 days of marriage
+2. Complete the Dependent Enrollment Form in Workday
+3. Provide a copy of your marriage certificate
+4. Choose health, dental, and vision coverage for your spouse
+5. Coverage is effective the first of the month following marriage
+
+Also update your tax withholding and beneficiary designations.
+
+Q13.5: What happens to my ex-spouse's coverage after divorce?
+A: After divorce:
+1. Notify HR immediately
+2. Provide a copy of the divorce decree
+3. Your ex-spouse's coverage will end on the last day of the month of the divorce
+4. Your ex-spouse will receive COBRA election information to continue coverage at their own expense
+5. Your premiums will adjust to your new coverage tier (employee only or employee + children)
+
+Update your beneficiaries for life insurance and 401(k).
+
+Q13.6: My child is turning 26. What happens to their coverage?
+A: Dependents can remain on your health insurance until they turn 26. Coverage ends on the last day of the month of their 26th birthday. HR will send you a notification before the coverage ends. Your premiums will automatically adjust. Your child will receive information about:
+- COBRA continuation (at their own expense)
+- Marketplace insurance options (healthcare.gov)
+- Coverage through their own employer if available
+
+Q13.7: Can I change my 401(k) contribution at any time?
+A: Yes, you can change your 401(k) contribution percentage or investment elections at any time through Workday. Changes typically take effect within 1-2 pay periods. There's no limit to how often you can make changes.
+
+Q13.8: How do I update my beneficiaries?
+A: Update beneficiaries in Workday:
+- Life insurance: Benefits > Life Insurance > Beneficiaries
+- 401(k): Benefits > Retirement > Beneficiaries
+
+Review beneficiaries:
+- Annually during open enrollment
+- After major life events (marriage, divorce, birth, death)
+- When relationships change
+
+Remember that 401(k) and life insurance have separate beneficiary designations.
+
+================================================================================
+SECTION 14: LEAVING THE COMPANY - FINAL PAY AND COBRA
+================================================================================
+
+Q14.1: When will I receive my final paycheck?
+A: Final paychecks are issued according to state law, which varies by state. Generally:
+- Voluntary resignation: Next regular payday or within 72 hours in some states
+- Involuntary termination: Immediately or within 24 hours in most states
+
+Your final paycheck includes:
+- Wages for all hours worked through last day
+- Accrued, unused PTO (paid out at base rate)
+- Pro-rated bonuses if applicable
+- Deductions for any outstanding amounts owed to the Company
+
+Q14.2: What benefits continue after I leave?
+A: - Health Insurance: Can continue through COBRA for up to 18 months at your expense
+- Dental/Vision: Can continue through COBRA for up to 18 months at your expense
+- Life Insurance: Group coverage ends; may convert to individual policy within 31 days
+- Disability Insurance: Coverage ends; no conversion available
+- FSA: Can continue through COBRA by paying monthly premiums, or forfeit remaining balance
+- HSA: Account is yours permanently
+- 401(k): Account is yours; decide whether to leave it, roll it over, or cash out
+- PTO: Paid out in final paycheck
+- EAP: Available for 30 days after termination
+
+Q14.3: What is COBRA and how does it work?
+A: COBRA (Consolidated Omnibus Budget Reconciliation Act) allows you to continue your group health insurance after leaving the Company. Key points:
+- Coverage continuation for up to 18 months (longer in some circumstances)
+- You pay the full premium (employee + employer share) plus 2% administration fee
+- Same coverage as you had while employed
+- Must elect within 60 days of receiving COBRA notice
+- Can cancel at any time
+- Can switch to Marketplace insurance during special enrollment
+
+Q14.4: How much does COBRA cost?
+A: COBRA premiums are the full cost of your coverage plus 2% (since the employer is no longer subsidizing):
+- Employee only: $550-750/month depending on plan
+- Employee + Spouse: $1,200-1,600/month
+- Employee + Family: $1,500-2,000/month
+
+COBRA can be expensive. Compare to Marketplace insurance options at healthcare.gov.
+
+Q14.5: Can I keep my 401(k) with the company?
+A: If your vested balance exceeds $5,000, you can leave your 401(k) in the Company plan. Advantages:
+- Maintain current investments
+- Low fees
+- No immediate taxes or penalties
+
+However, you cannot make new contributions and may have limited access to funds. Many people choose to roll over to an IRA or new employer's plan for more control and investment options.
+
+Q14.6: What happens to my equity or stock options?
+A: (If applicable) Stock option treatment depends on your plan documents:
+- Vested options typically must be exercised within 90 days of termination
+- Unvested options are forfeited
+- Restricted stock units (RSUs) that haven't vested are typically forfeited
+- Vested shares are yours to keep
+
+Review your equity agreements and consult a financial advisor.
+
+Q14.7: Will I get a reference?
+A: The Company's policy is to verify dates of employment and job title only. Detailed references require your written authorization. Managers may provide personal references at their discretion. Contact HR to request employment verification letters for future employers, mortgage applications, etc.
+
+Q14.8: How do I return company property?
+A: On or before your last day, return all Company property to your manager or HR:
+- Laptop computer
+- Monitor(s)
+- Phone
+- Keys and access cards
+- Company credit card
+- Documents and files (physical and electronic)
+- Any other equipment or materials
+
+Failure to return property may result in deductions from your final paycheck (where permitted by law) or legal action.
+
+Q14.9: What about non-compete and confidentiality agreements?
+A: Your obligations under non-compete, non-solicitation, and confidentiality agreements continue after your employment ends. Review your agreements to understand:
+- Geographic and time restrictions on working for competitors
+- Restrictions on soliciting Company employees or customers
+- Ongoing obligation to protect confidential information and trade secrets
+
+Violations can result in legal action. Consult an attorney if you have questions about your obligations.
+
+Q14.10: Can I access my HR records after leaving?
+A: Former employees can request copies of their personnel files in accordance with state law. Submit a written request to HR with your name, dates of employment, and specific records requested. HR will provide copies within the timeframe required by law (typically 15-30 days). Some documents like performance reviews, investigation files, or proprietary information may not be disclosed.
+
+================================================================================
+
+ADDITIONAL RESOURCES AND CONTACTS
+
+HUMAN RESOURCES DEPARTMENT
+General inquiries: hr@enterprisesolutions.com | (555) 123-4567
+Office hours: Monday-Friday, 8:00 AM - 5:00 PM
+
+PAYROLL DEPARTMENT
+Paycheck questions: payroll@enterprisesolutions.com | (555) 123-4580
+Office hours: Monday-Friday, 9:00 AM - 5:00 PM
+
+BENEFITS TEAM
+Benefits questions: benefits@enterprisesolutions.com | (555) 123-4570
+Office hours: Monday-Friday, 8:00 AM - 5:00 PM
+
+401(K) PROVIDER - FIDELITY
+Website: www.netbenefits.com/enterprisesolutions
+Phone: 1-800-XXX-XXXX (24/7)
+
+HEALTH INSURANCE PROVIDERS
+Medical: Blue Cross Blue Shield | 1-800-XXX-XXXX | www.bcbs.com
+Dental: Delta Dental | 1-800-XXX-XXXX | www.deltadentalins.com
+Vision: VSP | 1-800-XXX-XXXX | www.vsp.com
+
+EMPLOYEE ASSISTANCE PROGRAM
+Phone: 1-800-XXX-XXXX (24/7)
+Website: www.eapservices.com (Company code: ENT123)
+
+FSA/HSA ADMINISTRATOR - WEX
+Website: www.wexinc.com
+Phone: 1-800-XXX-XXXX
+
+WORKDAY (HRIS PORTAL)
+Website: enterprisesolutions.workday.com
+Help: Click "Help" icon in Workday or contact IT Help Desk
+
+COMPANY INTRANET
+URL: intranet.enterprisesolutions.com
+Benefits Portal: intranet.enterprisesolutions.com/hr/benefits
+
+---
+
+This FAQ document is updated regularly. The most current version is always available on the company intranet. If you have questions not addressed here, contact the Human Resources Department.
+
+ENTERPRISE SOLUTIONS CORPORATION
+Human Resources Department
+Compensation and Benefits Team
+
+Document Version: 4.2
+Last Updated: January 1, 2026
+Document Classification: Internal - All Employees
+Distribution: Company-Wide
+
+Feedback: If you have suggestions for additional FAQs or improvements to this document, email hr@enterprisesolutions.com with "Payroll & Benefits FAQ Feedback" in the subject line.
