@@ -4,12 +4,12 @@ from langchain_groq import ChatGroq
 from langchain_postgres import PGVector
 from sqlalchemy import create_engine
 from langchain_huggingface import HuggingFaceEmbeddings
-from utils.states.enterprise_state import EnterpriseState
-from utils.prompts.query_transalation import ( 
+from ..states.enterprise_state import EnterpriseState
+from ..prompts.query_transalation import ( 
     DECOMPOSITION_SYSTEM_PROMPT, RAG_FUSION_SYSTEM_PROMPT, STEP_BACK_SYSTEM_PROMPT,
     HYDE_SYSTEM_PROMPT, TEMPORAL_NORMALIZATION_SYSTEM_PROMPT, GENERIC_SYSTEM_PROMPT
 )
-from utils.prompts.policy_graph import ANSWER_GENERATION_SYSTEM_PROMPT
+from ..prompts.policy_graph import ANSWER_GENERATION_SYSTEM_PROMPT
 import ast
 import os
 from dotenv import load_dotenv

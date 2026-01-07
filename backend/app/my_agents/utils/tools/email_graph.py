@@ -1,4 +1,6 @@
 import base64
+import os
+import json
 from email.message import EmailMessage
 from googleapiclient.discovery import build
 from langchain_core.tools import tool
@@ -12,24 +14,21 @@ from cryptography.fernet import Fernet
 from ..datatypes.email_query import SendEmailInput
 
 
-# FERNET_KEY = os.environ["OAUTH_ENCRYPTION_KEY"]
-# fernet = Fernet(FERNET_KEY)
+FERNET_KEY = os.environ["OAUTH_ENCRYPTION_KEY"]
+fernet = Fernet(FERNET_KEY)
 
 
 def encrypt_credentials(data: dict) -> bytes:
-    return #fernet.encrypt(json.dumps(data).encode())
+    return fernet.encrypt(json.dumps(data).encode())
 
 
 def decrypt_credentials(blob: bytes) -> dict:
-    return #json.loads(fernet.decrypt(blob).decode())
+    return json.loads(fernet.decrypt(blob).decode())
 
 
 def load_user_oauth_token(user_id: str) -> Credentials:
-    """
-    Load and refresh OAuth token securely for a user.
-    """
 
-    with SessionLocal() as db:  # type Session
+    with SessionLocal() as db:  
         record = (
             db.query(UserOAuthCredentials)
             .filter(
@@ -42,10 +41,8 @@ def load_user_oauth_token(user_id: str) -> Credentials:
         if not record:
             raise PermissionError("User has not connected email account")
 
-        # 1. Decrypt credentials
         creds_data = decrypt_credentials(record.encrypted_credentials)
 
-        # 2. Build Credentials object
         creds = Credentials(
             token=creds_data["token"],
             refresh_token=creds_data["refresh_token"],
@@ -55,16 +52,14 @@ def load_user_oauth_token(user_id: str) -> Credentials:
             scopes=creds_data["scopes"],
         )
 
-        # 3. Refresh if expired
         if creds.expired and creds.refresh_token:
             creds.refresh(Request())
 
-            # 4. Persist refreshed token
             creds_data["token"] = creds.token
             creds_data["refresh_token"] = creds.refresh_token
 
             record.encrypted_credentials = encrypt_credentials(creds_data)
-            record.updated_at = datetime.utcnow()
+            record.updated_at = datetime.now()
             db.commit()
 
         return creds
@@ -95,13 +90,7 @@ def send_email_via_provider(oauth_token, to, subject, body, cc=None, is_html=Fal
     ).execute()
 
 
-@tool
 def send_email_tool(input: SendEmailInput, user_id: str):
-    """
-    Send an email on behalf of the authenticated user.
-    """
-    print("send_email_tool executed")
-    return {"status":"sent"}
     if not input.to:
         raise ValueError("Recipient list cannot be empty")
 
@@ -118,8 +107,6 @@ def send_email_tool(input: SendEmailInput, user_id: str):
         cc=input.cc,
         is_html=input.is_html
     )
-
-    # log_email_event(user_id, input)
 
     return {"status": "sent"}
 
