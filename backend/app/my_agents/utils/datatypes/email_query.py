@@ -9,10 +9,6 @@ class SendEmailInput(BaseModel):
     is_html: bool = False
 
 
-class EmailAction(BaseModel):
+class EmailAction(SendEmailInput):
     action: Literal["accept", "reject", "inplaceedit", "llmedit"]
-    to: Optional[List[str]] = None
-    subject: Optional[str] = None
-    body: Optional[str] = None
-    cc: Optional[List[str]] = None
     instructions: Optional[str] = None
