@@ -5,7 +5,7 @@ from .utils.graphs.policy_graph import policy_graph
 from .utils.graphs.email_graph import email_graph
 from .utils.graphs.personal_graph import personal_graph
 from .utils.conditions.agent_condition import intent_router_condittion
-
+from .utils.db.checkpointer import checkpointer
 
 
 #initialise graph
@@ -33,7 +33,5 @@ builder.add_edge('policy_graph', END)
 builder.add_edge('email_graph', END)
 builder.add_edge('personal_graph', END)
 
-
-#compiling graph
-graph = builder.compile()
-
+#compile graph
+graph = builder.compile(checkpointer=checkpointer)

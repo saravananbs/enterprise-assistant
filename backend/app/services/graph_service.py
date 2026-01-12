@@ -1,11 +1,12 @@
-from typing import AsyncGenerator
+from typing import Dict
 from ..my_agents.agent import graph
+from ..utils.serializers import serialize_message
 
-async def run_graph_stream(
+def run_graph_sync(
     user_id: str,
     chat_id: str,
     user_message: str
-) -> AsyncGenerator[dict, None]:
+) -> Dict:
     thread_id = f"{user_id}:{chat_id}"
 
     config = {
@@ -21,9 +22,18 @@ async def run_graph_stream(
         "user_id": user_id
     }
 
-    async for event in graph.astream(
-        input_data,
-        config=config,
-        stream_mode="values"
-    ):
-        yield event
+    result = graph.invoke(input_data, config=config)
+
+    messages = result.get("messages", [])
+    draft_email = result.get("drafted_email")
+    if not messages:
+        return {
+            "message": None
+        }
+
+    last_message = messages[-1]
+
+    return {
+        "message": serialize_message(last_message),
+        "draft_email": draft_email if draft_email else None
+    }
