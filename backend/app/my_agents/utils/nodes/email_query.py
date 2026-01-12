@@ -2,9 +2,9 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
 from langgraph.types import interrupt, Command
 from ..states.enterprise_state import EnterpriseState
-from ..prompts.email_query import DRAFT_EMAIL_SYSTEM_PROMPT, SEND_EMAIL_SYSTEM_PROMPT
+from ..prompts.email_query import DRAFT_EMAIL_SYSTEM_PROMPT
 from ..tools.email_graph import send_email_tool
-from ..datatypes.email_query import SendEmailInput
+from ..datatypes.email_query import SendEmailInput, EmailAction
 
 
 llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
@@ -33,61 +33,44 @@ def draft_email(state: EnterpriseState) -> EnterpriseState:
 def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
     draft_email: SendEmailInput = state["drafted_email"]
     user_id = state["user_id"]
-    response = interrupt(
-        {
-            "messages": (
-                "Do you want to:\n"
-                "1. accept (send the email)\n"
-                "2. reject (cancel)\n"
-                "3. inplaceedit (edit manually)\n"
-                "4. llmedit (AI edits & sends)"
-            )
-        }
-    )
-    if response == "accept":
-        res = send_email_tool(input=draft_email, user_id=user_id)
-        return {
-            "messages": AIMessage(
-                content="Email sent successfully" if res["status"] == "sent"
-                else "Email sending failed due to some reasons"
-            )
-        }
-    elif response == "reject":
-        return {
-            "messages": AIMessage(content="Email cancelled")
-        }
-    elif response == "inplaceedit":
-        edited_email = interrupt(
-            {
-                "messages": (
-                    "Please edit the email and return it in this format:\n"
-                    "{\n"
-                    '  "to": ["user@example.com"],\n'
-                    '  "subject": "Updated subject",\n'
-                    '  "body": "Updated body",\n'
-                    '  "cc": ["cc@example.com"]\n'
-                    "}"
-                )
-            }
+    response = interrupt({
+        "messages": (
+            "choose one action and respond in json:\n\n"
+            "{\n"
+            '  "action": "accept | reject | inplaceedit | llmedit",\n'
+            '  "to": [...],        // required only for inplaceedit\n'
+            '  "subject": "...",\n'
+            '  "body": "...",\n'
+            '  "cc": [...],\n'
+            '  "instructions": "..." // required only for llmedit\n'
+            "}"
         )
-        updated_draft = SendEmailInput(**edited_email)
-        res = send_email_tool(input=updated_draft, user_id=user_id)
-        return {
-            "messages": AIMessage(
-                content="Email sent successfully" if res["status"] == "sent"
-                else "Email sending failed due to some reasons"
-            ),
-            "drafted_email": updated_draft
-        }
-    elif response == "llmedit":
-        updated_prompt = interrupt(
-            {
-                "messages": "Please enter what changes you like to make"
-            }
+    })
+
+    cmd = EmailAction(**response)
+
+    if cmd.action == "accept":
+        send_email_tool(input=draft_email, user_id=user_id)
+        return {"messages": AIMessage(content="Email sent")}
+
+    elif cmd.action == "reject":
+        return {"messages": AIMessage(content="Email cancelled")}
+
+    elif cmd.action == "inplaceedit":
+        updated = SendEmailInput(
+            to=cmd.to,
+            subject=cmd.subject,
+            body=cmd.body,
+            cc=cmd.cc
         )
+        send_email_tool(input=updated, user_id=user_id)
+        return {
+            "messages": AIMessage(content="Email sent"),
+            "drafted_email": updated
+        }
+
+    elif cmd.action == "llmedit":
         return Command(
-            update={
-                "messages": HumanMessage(content=updated_prompt)
-            },
+            update={"messages": HumanMessage(content=cmd.instructions)},
             goto="draft_email"
         )
