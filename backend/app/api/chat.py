@@ -1,8 +1,9 @@
 from fastapi import APIRouter
+from fastapi.responses import StreamingResponse
 from app.services.chat_store import list_chats, create_chat
-from ..services.graph_service import run_graph_sync
 from ..schemas.chatrequest import ChatRequest
 from ..my_agents.utils.datatypes.email_query import EmailAction
+from ..utils.stream_generator import chat_event_generator, interrupt_event_generator
 
 router = APIRouter(prefix="/chats", tags=["Chats"])
 
@@ -18,27 +19,14 @@ def new_chat(user_id: str):
 
 @router.post("/ai/send")
 def chat_endpoint(payload: ChatRequest):
-    response = run_graph_sync(
-        user_id=payload.user_id,
-        chat_id=payload.chat_id,
-        user_message=payload.message
+    return StreamingResponse(
+        chat_event_generator(payload=payload),
+        media_type="text/event-stream"
     )
-
-    return {
-        "status": "success",
-        "data": response
-    }
-
 
 @router.post("/ai/interrupt/respond")
 def interrupt_response_endpoint(user_id: str, chat_id: str, payload: EmailAction):
-    response = run_graph_sync(
-        user_id=user_id,
-        chat_id=chat_id,
-        interrupt_response=payload.model_dump()
+    return StreamingResponse(
+        interrupt_event_generator(user_id=user_id, chat_id=chat_id, payload=payload),
+        media_type="text/event-stream"
     )
-
-    return {
-        "status": "success",
-        "data": response
-    }

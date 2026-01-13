@@ -47,7 +47,10 @@ def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
         )
     })
 
-    cmd = EmailAction(**response)
+    if isinstance(response, EmailAction):
+        cmd = response
+    else:
+        cmd = EmailAction(**response)
 
     if cmd.action == "accept":
         send_email_tool(input=draft_email, user_id=user_id)
