@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.storage.chat_store import list_chats, create_chat
+from app.services.chat_store import list_chats, create_chat
 from ..services.graph_service import run_graph_sync
 from ..schemas.chatrequest import ChatRequest
 from ..my_agents.utils.datatypes.email_query import EmailAction
