@@ -1,7 +1,7 @@
 from langgraph.graph import START, END, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
-from utils.states.enterprise_state import EnterpriseState
-from utils.nodes.personal_graph import invoke_llm_with_tools, tools
+from ..states.enterprise_state import EnterpriseState
+from ..nodes.personal_graph import invoke_llm_with_tools, tools
 
 #initalise the graph
 builder = StateGraph(EnterpriseState)

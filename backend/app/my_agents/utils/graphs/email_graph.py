@@ -1,6 +1,6 @@
 from langgraph.graph import START, END, StateGraph
-from utils.states.enterprise_state import EnterpriseState
-from utils.nodes.email_query import draft_email, routing_email
+from ..states.enterprise_state import EnterpriseState
+from ..nodes.email_query import draft_email, routing_email
 
 #initalise the graph
 builder = StateGraph(EnterpriseState)

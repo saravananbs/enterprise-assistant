@@ -13,9 +13,9 @@ from ..auth.google_oauth import (
 )
  
 
-router = APIRouter()
+router = APIRouter(prefix="/oauth", tags=["Oauth"])
 
-@router.get("/oauth/google/connect")
+@router.get("/google/connect")
 def connect_google(user_id: str):
     flow = Flow.from_client_config(
         {
@@ -40,7 +40,7 @@ def connect_google(user_id: str):
     return {"authorization_url": auth_url}
 
 
-@router.get("/oauth/google/callback")
+@router.get("/google/callback")
 def google_callback(code: str, state: str):
     user_id = consume_oauth_state(state)
     if not user_id:
