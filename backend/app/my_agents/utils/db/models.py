@@ -14,6 +14,7 @@ class Employee(Base):
     employee_id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     employee_code = Column(String(20), unique=True, nullable=False)
     full_name = Column(String(100), nullable=False)
+    email = Column(String(255), unique=True, nullable=False)
     department = Column(String(50), nullable=False)
     designation = Column(String(50), nullable=False)
     date_of_joining = Column(Date, nullable=False)

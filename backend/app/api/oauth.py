@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+from fastapi.responses import RedirectResponse
 from google_auth_oauthlib.flow import Flow
 from datetime import datetime
 from ..my_agents.utils.db.connection import SessionLocal
@@ -93,4 +94,7 @@ def google_callback(code: str, state: str):
             )
             db.add(record)
         db.commit()
-    return {"status": "gmail_connected_successfully"}
+    return RedirectResponse(
+        url="http://localhost:5173/chat",
+        status_code=302
+    )
