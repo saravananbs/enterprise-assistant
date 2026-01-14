@@ -53,8 +53,11 @@ def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
         cmd = EmailAction(**response)
 
     if cmd.action == "accept":
-        send_email_tool(input=draft_email, user_id=user_id)
-        return {"messages": AIMessage(content="Email sent")}
+        response = send_email_tool(input=draft_email, user_id=user_id)
+        if response["status"] == "sent":
+            return {"messages": AIMessage(content="Email sent")}
+        else:
+            return {"messages": AIMessage(content="Please give access to send email on behalf of you via the authenticate email button")}
 
     elif cmd.action == "reject":
         return {"messages": AIMessage(content="Email cancelled")}
@@ -66,11 +69,15 @@ def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
             body=cmd.body,
             cc=cmd.cc
         )
-        send_email_tool(input=updated, user_id=user_id)
-        return {
-            "messages": AIMessage(content="Email sent"),
-            "drafted_email": updated
-        }
+        response = send_email_tool(input=draft_email, user_id=user_id)
+
+        if response["status"] == "sent":
+            return {
+                "messages": AIMessage(content="Email sent"),
+                "drafted_email": updated
+            }
+        else:
+            return {"messages": AIMessage(content="Please give access to send email on behalf of you via the authenticate email button")}
 
     elif cmd.action == "llmedit":
         return Command(

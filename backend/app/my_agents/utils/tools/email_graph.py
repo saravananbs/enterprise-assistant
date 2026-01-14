@@ -39,7 +39,7 @@ def load_user_oauth_token(user_id: str) -> Credentials:
         )
 
         if not record:
-            raise PermissionError("User has not connected email account")
+            return None
 
         creds_data = decrypt_credentials(record.encrypted_credentials)
 
@@ -98,7 +98,10 @@ def send_email_tool(input: SendEmailInput, user_id: str):
         raise ValueError("Too many recipients")
 
     oauth_token = load_user_oauth_token(user_id)
-
+    
+    if not oauth_token:
+        return {"status": "not sent"}
+    
     send_email_via_provider(
         oauth_token=oauth_token,
         to=input.to,

@@ -61,10 +61,6 @@ def run_graph_sync(
             task_config = task.state
 
             sub = graph.get_state(task_config)
-            snapshot = graph.get_state(config)
-            print("VALUESSS", snapshot.values)      
-            print("NEXTTT", snapshot.next)        
-            print("TASKSSS", snapshot.tasks)
             yield {
                 "type": "message",
                 "message": serialize_message(sub.values.get("messages")[-2]),
@@ -94,11 +90,11 @@ def run_graph_sync(
         messages = event.get("messages")
         if messages:
             last_message = messages[-1]
-            yield {
-                "type": "message",
-                "message": serialize_message(last_message),
-            }
             if isinstance(last_message, AIMessage):
+                yield {
+                    "type": "message",
+                    "message": serialize_message(last_message),
+                }
                 append_chat(
                     db=db,
                     thread_id=thread_id,
