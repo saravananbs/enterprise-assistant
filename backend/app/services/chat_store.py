@@ -1,3 +1,4 @@
+from datetime import datetime
 from ..my_agents.utils.db.connection import SessionLocal
 from ..models.chat import Chat
 
@@ -25,7 +26,7 @@ def create_chat(user_id: str, title: str | None = None):
     with SessionLocal() as db:
         chat = Chat(
             user_id=user_id,
-            title=title or "New Chat"
+            title=title or f"Chat: {datetime.now()}"
         )
 
         db.add(chat)
