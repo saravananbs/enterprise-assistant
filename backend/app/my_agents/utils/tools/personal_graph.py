@@ -257,3 +257,34 @@ def get_leave_history(employee_code: str) -> List[Dict]:
             }
             for lh, leave_name, approver_name in results
         ]
+
+@tool
+def get_all_employees() -> List[Dict]:
+    """
+    Return a list of all the employees with their
+    - employee_id
+    - employee_code
+    - full_name
+    - department
+    - designation
+    - date_of_joining
+    - employment_status
+    """
+    with SessionLocal() as db:
+
+        stmt = select(Employee)
+
+        result = db.execute(stmt).scalars().all()
+
+        return [ 
+            {
+                "employee_id": str(emp.employee_id),
+                "employee_code": emp.employee_code,
+                "full_name": emp.full_name,
+                "department": emp.department,
+                "designation": emp.designation,
+                "date_of_joining": emp.date_of_joining,
+                "employment_status": emp.employment_status
+            } 
+            for emp in result
+        ]
