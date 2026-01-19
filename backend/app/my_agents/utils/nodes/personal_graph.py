@@ -9,7 +9,7 @@ from ..prompts.tools import TOOLS_SYSTEM_MESSAGE
 
 
 llm = ChatGroq(
-    model="llama-3.1-8b-instant",
+    model="llama-3.3-70b-versatile",
     temperature=0
 )
 

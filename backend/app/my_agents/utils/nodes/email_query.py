@@ -69,7 +69,7 @@ def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
             body=cmd.body,
             cc=cmd.cc
         )
-        response = send_email_tool(input=draft_email, user_id=user_id)
+        response = send_email_tool(input=updated, user_id=user_id)
 
         if response["status"] == "sent":
             return {

@@ -261,6 +261,7 @@ def get_leave_history(employee_code: str) -> List[Dict]:
 @tool
 def get_all_employees() -> List[Dict]:
     """
+    Use this tool to get the employee_code of the employees
     Return a list of all the employees with their
     - employee_id
     - employee_code
