@@ -1,8 +1,10 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
 from fastapi.responses import RedirectResponse
 from google_auth_oauthlib.flow import Flow
 from datetime import datetime
-from ..my_agents.utils.db.connection import SessionLocal
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
+from ..my_agents.utils.db.connection import get_async_session
 from ..my_agents.utils.db.models import UserOAuthCredentials
 from ..my_agents.utils.tools.email_graph import encrypt_credentials
 from ..auth.google_oauth import (
@@ -10,14 +12,15 @@ from ..auth.google_oauth import (
     GOOGLE_CLIENT_SECRET,
     GOOGLE_REDIRECT_URI,
     GOOGLE_SCOPES,
-    create_oauth_state, consume_oauth_state
+    create_oauth_state,
+    consume_oauth_state,
 )
  
 
 router = APIRouter(prefix="/oauth", tags=["Oauth"])
 
 @router.get("/google/connect")
-def connect_google(user_id: str):
+async def connect_google(user_id: str):
     flow = Flow.from_client_config(
         {
             "web": {
@@ -42,7 +45,11 @@ def connect_google(user_id: str):
 
 
 @router.get("/google/callback")
-def google_callback(code: str, state: str):
+async def google_callback(
+    code: str,
+    state: str,
+    db: AsyncSession = Depends(get_async_session),
+):
     user_id = consume_oauth_state(state)
     if not user_id:
         raise HTTPException(status_code=400, detail="Invalid OAuth state")
@@ -75,25 +82,26 @@ def google_callback(code: str, state: str):
     encrypted_blob = encrypt_credentials(creds_data)
     if not encrypted_blob:
         raise RuntimeError("Credential encryption failed")
-    with SessionLocal() as db:
-        record = (
-            db.query(UserOAuthCredentials)
-            .filter_by(user_id=user_id, provider="google")
-            .first()
+    stmt = select(UserOAuthCredentials).where(
+        UserOAuthCredentials.user_id == user_id,
+        UserOAuthCredentials.provider == "google",
+    )
+    result = await db.execute(stmt)
+    record = result.scalars().first()
+    now = datetime.now()
+    if record:
+        record.encrypted_credentials = encrypted_blob
+        record.updated_at = now
+    else:
+        record = UserOAuthCredentials(
+            user_id=user_id,
+            provider="google",
+            encrypted_credentials=encrypted_blob,
+            created_at=now,
+            updated_at=now,
         )
-        if record:
-            record.encrypted_credentials = encrypted_blob
-            record.updated_at = datetime.now()
-        else:
-            record = UserOAuthCredentials(
-                user_id=user_id,
-                provider="google",
-                encrypted_credentials=encrypted_blob,
-                created_at=datetime.now(),
-                updated_at=datetime.now(),
-            )
-            db.add(record)
-        db.commit()
+        db.add(record)
+    await db.commit()
     return RedirectResponse(
         url="http://localhost:5173/chat",
         status_code=302

@@ -1,6 +1,7 @@
 import os
-from psycopg_pool import ConnectionPool
-from langgraph.checkpoint.postgres import PostgresSaver
+from psycopg_pool import AsyncConnectionPool
+from psycopg.rows import dict_row
+from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
 
 
 DATABASE_URL = (
@@ -11,10 +12,10 @@ DATABASE_URL = (
     f"{os.getenv('POSTGRES_DB')}"
 )
 
-checkpoint_pool = ConnectionPool(
+checkpoint_pool = AsyncConnectionPool(
     conninfo=DATABASE_URL,
     max_size=10,
     kwargs={"autocommit": True},
 )
 
-checkpointer = PostgresSaver(checkpoint_pool)
+checkpointer = AsyncPostgresSaver(checkpoint_pool)
