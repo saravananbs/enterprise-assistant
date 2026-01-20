@@ -1,4 +1,4 @@
-from typing import Dict, Any, Generator
+from typing import Dict, Any, AsyncGenerator
 from langgraph.types import Command
 from langchain_core.messages import AIMessage
 from sqlalchemy.orm import Session
@@ -8,13 +8,13 @@ from ..utils.serializers import serialize_message
 from ..my_agents.utils.datatypes.email_query import EmailAction
 from ..services.chat_history import append_chat
 
-def run_graph_sync(
+async def run_graph_async(
     user_id: str,
     chat_id: str,
     db: Session,
     user_message: str | None = None,
     interrupt_response: EmailAction | None = None,
-) -> Generator[Dict[str, Any], None, None]:
+):
 
     thread_id = f"{user_id}:{chat_id}"
 
@@ -29,7 +29,7 @@ def run_graph_sync(
             "messages": [("human", user_message)],
             "user_id": user_id
         }
-        append_chat(
+        await append_chat(
             db=db,
             thread_id=thread_id,
             messages=[{
@@ -40,7 +40,7 @@ def run_graph_sync(
         )
     else:
         input_data = Command(resume=interrupt_response)
-        append_chat(
+        await append_chat(
             db=db,
             thread_id=thread_id,
             messages=[{
@@ -50,17 +50,17 @@ def run_graph_sync(
             }]
         )
 
-    for event in graph.stream(
+    async for event in graph.astream(
         input_data,
         config=config,
         stream_mode="values", 
     ):
         if "__interrupt__" in event:
-            parent = graph.get_state(config)
+            parent = await graph.aget_state(config)
             task = parent.tasks[0]
             task_config = task.state
 
-            sub = graph.get_state(task_config)
+            sub = await graph.aget_state(task_config)
             yield {
                 "type": "message",
                 "message": serialize_message(sub.values.get("messages")[-2]),
@@ -74,7 +74,7 @@ def run_graph_sync(
                 "payload": str(event["__interrupt__"]),
                 "draft_email": sub.values.get("drafted_email").model_dump() if sub.values.get("drafted_email") else None,
             }
-            append_chat(
+            await append_chat(
                 db=db,
                 thread_id=thread_id,
                 messages=[{
@@ -95,7 +95,7 @@ def run_graph_sync(
                     "type": "message",
                     "message": serialize_message(last_message),
                 }
-                append_chat(
+                await append_chat(
                     db=db,
                     thread_id=thread_id,
                     messages=[{

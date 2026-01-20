@@ -1,8 +1,8 @@
-from sqlalchemy import update
-from sqlalchemy.orm import Session
+from sqlalchemy import update, select
+from sqlalchemy.ext.asyncio import AsyncSession
 from ..models.chat import ChatHistory
 
-def append_chat_messages(db: Session, user_id: str, chat_id: str, messages: list[dict]) -> bool:
+async def append_chat_messages(db: AsyncSession, user_id: str, chat_id: str, messages: list[dict]) -> bool:
     stmt = (
         update(ChatHistory)
         .where(
@@ -13,7 +13,7 @@ def append_chat_messages(db: Session, user_id: str, chat_id: str, messages: list
             chats=ChatHistory.chats.op("||")(messages)
         )
     )
-    result = db.execute(stmt)
+    result = await db.execute(stmt)
     if result.rowcount == 0:
         db.add(
             ChatHistory(
@@ -22,17 +22,18 @@ def append_chat_messages(db: Session, user_id: str, chat_id: str, messages: list
                 chats=messages
             )
         )
-    db.commit()
+    await db.commit()
     return True
 
 
-def get_chat_history(db: Session, user_id: str, chat_id) -> list[dict]:
-    chat = (
-        db.query(ChatHistory.chats)
-        .filter(
+async def get_chat_history(db: AsyncSession, user_id: str, chat_id) -> list[dict]:
+    stmt = (
+        select(ChatHistory.chats)
+        .where(
             ChatHistory.chat_id == chat_id,
-            ChatHistory.user_id == user_id
+            ChatHistory.user_id == user_id,
         )
-        .one_or_none()
     )
-    return chat.chats if chat else []
+    result = await db.execute(stmt)
+    chats = result.scalar_one_or_none()
+    return chats if chats else []

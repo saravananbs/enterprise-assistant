@@ -16,6 +16,7 @@ checkpoint_pool = AsyncConnectionPool(
     conninfo=DATABASE_URL,
     max_size=10,
     kwargs={"autocommit": True},
+    open=False,
 )
 
 checkpointer = AsyncPostgresSaver(checkpoint_pool)

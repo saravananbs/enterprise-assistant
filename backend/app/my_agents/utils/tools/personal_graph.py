@@ -1,18 +1,18 @@
 from typing import List, Dict, Optional
 from datetime import date
-from sqlalchemy import select, and_, func, desc
+from sqlalchemy import select, and_, desc
 from sqlalchemy.orm import aliased
 from sqlalchemy import or_
 from sqlalchemy.exc import NoResultFound
 from ..db.models import (
-    Employee, SalaryStructure, Payroll, PayrollComponent,
+    Employee, SalaryStructure, Payroll,
     LeaveType, LeaveBalance, LeaveHistory
 )
 from langchain_core.tools import tool
-from ..db.connection import SessionLocal
+from ..db.connection import AsyncSessionLocal
 
 @tool
-def get_employee_by_code(employee_code: str) -> Optional[Dict]:
+async def get_employee_by_code(employee_code: str) -> Optional[Dict]:
     """
     Retrieve basic employee details like name, department, designation, 
     date of joining,employment status by employee code.
@@ -33,11 +33,13 @@ def get_employee_by_code(employee_code: str) -> Optional[Dict]:
             "employment_status": str
         }
     """
-    with SessionLocal() as db:
+    async with AsyncSessionLocal() as db:
         stmt = select(Employee).where(Employee.employee_code == employee_code)
         
         try:
-            employee = db.scalars(stmt).one()
+            res = await db.execute(stmt)
+            employee = res.scalars().all()
+
             return {
                 "employee_id": str(employee.employee_id),
                 "employee_code": employee.employee_code,
@@ -51,7 +53,7 @@ def get_employee_by_code(employee_code: str) -> Optional[Dict]:
             return None
 
 @tool
-def get_current_salary_structure(employee_code: str) -> Optional[Dict]:
+async def get_current_salary_structure(employee_code: str) -> Optional[Dict]:
     """
     Get the currently active (most recent valid) salary structure for an employee.
 
@@ -77,7 +79,7 @@ def get_current_salary_structure(employee_code: str) -> Optional[Dict]:
             "total_deductions": float       # pf + pt + it
         }
     """
-    with SessionLocal() as db:
+    async with AsyncSessionLocal() as db:
         today = date.today()
 
         stmt = (
@@ -98,7 +100,8 @@ def get_current_salary_structure(employee_code: str) -> Optional[Dict]:
         )
 
         try:
-            structure = db.scalars(stmt).one()
+            res = await db.execute(stmt)
+            structure = res.scalars().all()
 
             gross = (
                 structure.basic_salary +
@@ -129,7 +132,7 @@ def get_current_salary_structure(employee_code: str) -> Optional[Dict]:
             return None
 
 @tool
-def get_payroll_summary(employee_code: str) -> List[Dict]:
+async def get_payroll_summary(employee_code: str) -> List[Dict]:
     """
     Get payroll history summary for the employee (all months).
 
@@ -150,7 +153,7 @@ def get_payroll_summary(employee_code: str) -> List[Dict]:
             "payment_date": str or None
         }
     """
-    with SessionLocal() as db:
+    async with AsyncSessionLocal() as db:
         stmt = (
             select(Payroll)
             .join(Employee)
@@ -158,7 +161,8 @@ def get_payroll_summary(employee_code: str) -> List[Dict]:
             .order_by(desc(Payroll.payroll_month))
         )
 
-        payrolls = db.scalars(stmt).all()
+        payrolls = await db.execute(stmt)
+        result = payrolls.scalars().all()
 
         return [
             {
@@ -169,11 +173,11 @@ def get_payroll_summary(employee_code: str) -> List[Dict]:
                 "status": p.payment_status,
                 "payment_date": p.payment_date.isoformat() if p.payment_date else None
             }
-            for p in payrolls
+            for p in result
         ]
 
 @tool
-def get_leave_balances(employee_code: str) -> List[Dict]:
+async def get_leave_balances(employee_code: str) -> List[Dict]:
     """
     Get current leave balance for all leave types of an employee.
 
@@ -191,7 +195,7 @@ def get_leave_balances(employee_code: str) -> List[Dict]:
             "last_updated": str (ISO datetime)
         }
     """
-    with SessionLocal() as db:
+    async with AsyncSessionLocal() as db:
         stmt = (
             select(LeaveBalance, LeaveType.leave_name)
             .join(LeaveType)
@@ -200,7 +204,8 @@ def get_leave_balances(employee_code: str) -> List[Dict]:
             .order_by(LeaveType.leave_name)
         )
 
-        results = db.execute(stmt).all()
+        res = await db.execute(stmt)
+        results = res.scalars().all()
 
         return [
             {
@@ -214,11 +219,11 @@ def get_leave_balances(employee_code: str) -> List[Dict]:
         ]
 
 @tool
-def get_leave_history(employee_code: str) -> List[Dict]:
+async def get_leave_history(employee_code: str) -> List[Dict]:
     """
     Retrieve leave application history for an employee (most recent first).
     """
-    with SessionLocal() as db:
+    async with AsyncSessionLocal() as db:
         EmployeeOwner = aliased(Employee)
         EmployeeApprover = aliased(Employee)
 
@@ -241,7 +246,8 @@ def get_leave_history(employee_code: str) -> List[Dict]:
             .order_by(desc(LeaveHistory.applied_on))
         )
 
-        results = db.execute(stmt).all()
+        res = await db.execute(stmt)
+        results = res.scalars().all()
 
         return [
             {
@@ -259,7 +265,7 @@ def get_leave_history(employee_code: str) -> List[Dict]:
         ]
 
 @tool
-def get_all_employees() -> List[Dict]:
+async def get_all_employees() -> List[Dict]:
     """
     Use this tool to get the employee_code of the employees
     Return a list of all the employees with their
@@ -271,11 +277,12 @@ def get_all_employees() -> List[Dict]:
     - date_of_joining
     - employment_status
     """
-    with SessionLocal() as db:
+    async with AsyncSessionLocal() as db:
 
         stmt = select(Employee)
 
-        result = db.execute(stmt).scalars().all()
+        res = await db.execute(stmt)
+        result = res.scalars().all()
 
         return [ 
             {

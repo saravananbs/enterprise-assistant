@@ -10,14 +10,14 @@ load_dotenv()
 llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 classifier = llm.with_structured_output(IntentClassification)
 
-def classify_user_query(state: EnterpriseState):
+async def classify_user_query(state: EnterpriseState):
     # if state.get("intent"):
     #     return {}
     
     if not isinstance(state['messages'][-1], HumanMessage):
         raise Exception("Need Human messages but got", type(state['messages'][-1]))
     
-    response: IntentClassification = classifier.invoke(
+    response: IntentClassification = await classifier.ainvoke(
         [SystemMessage(content=INITIAL_INTENT_SYSTEM_PROMPT)]
         + state["messages"]
     )

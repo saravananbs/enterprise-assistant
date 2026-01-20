@@ -20,12 +20,12 @@ tools = [
 
 llm_with_tools = llm.bind_tools(tools)
 
-def invoke_llm_with_tools(state: EnterpriseState) -> dict:
+async def invoke_llm_with_tools(state: EnterpriseState) -> dict:
     messages = state["messages"]
     if not messages or not isinstance(messages[0], SystemMessage):
         messages = [SystemMessage(content=TOOLS_SYSTEM_MESSAGE)] + messages
 
-    response = llm_with_tools.invoke(messages)
+    response = await llm_with_tools.ainvoke(messages)
     return {
         "messages": response
     }

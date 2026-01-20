@@ -34,7 +34,7 @@ async def connect_google(user_id: str):
         redirect_uri=GOOGLE_REDIRECT_URI,
     )
 
-    state = create_oauth_state(user_id)
+    state = await create_oauth_state(user_id)
     auth_url, _ = flow.authorization_url(
         access_type="offline",      
         prompt="consent",           
@@ -50,7 +50,7 @@ async def google_callback(
     state: str,
     db: AsyncSession = Depends(get_async_session),
 ):
-    user_id = consume_oauth_state(state)
+    user_id = await consume_oauth_state(state)
     if not user_id:
         raise HTTPException(status_code=400, detail="Invalid OAuth state")
 
@@ -79,7 +79,7 @@ async def google_callback(
         "client_secret": creds.client_secret,
         "scopes": creds.scopes,
     }
-    encrypted_blob = encrypt_credentials(creds_data)
+    encrypted_blob = await encrypt_credentials(creds_data)
     if not encrypted_blob:
         raise RuntimeError("Credential encryption failed")
     stmt = select(UserOAuthCredentials).where(

@@ -10,6 +10,7 @@ from ..prompts.query_transalation import (
     HYDE_SYSTEM_PROMPT, TEMPORAL_NORMALIZATION_SYSTEM_PROMPT, GENERIC_SYSTEM_PROMPT
 )
 from ..prompts.policy_graph import ANSWER_GENERATION_SYSTEM_PROMPT
+from ..db.connection import engine
 import ast
 import os
 from dotenv import load_dotenv
@@ -20,14 +21,12 @@ load_dotenv()
 llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 
 CONNECTION_STRING = f"postgresql+psycopg://{os.getenv('POSTGRES_USERNAME')}:{os.getenv('POSTGRES_PASSWORD')}@{os.getenv('POSTGRES_HOST')}:{os.getenv('POSTGRES_PORT')}/{os.getenv('POSTGRES_DB')}"
-engine = create_engine(CONNECTION_STRING)
 
 embeddings = HuggingFaceEmbeddings(
     model_name="BAAI/bge-base-en-v1.5"
 )
 
-
-def query_translation_node(state: EnterpriseState) -> dict:
+async def query_translation_node(state: EnterpriseState) -> dict:
     user_query = state["messages"][-1].content
 
     SYSTEM_PROMPT = GENERIC_SYSTEM_PROMPT
@@ -41,14 +40,13 @@ def query_translation_node(state: EnterpriseState) -> dict:
         SYSTEM_PROMPT = HYDE_SYSTEM_PROMPT
     elif state["query_translation"] == "temporal_normalization":
         SYSTEM_PROMPT = TEMPORAL_NORMALIZATION_SYSTEM_PROMPT
-   
+
     messages = [
         SystemMessage(content=SYSTEM_PROMPT),
-        HumanMessage(content=user_query)
+        HumanMessage(content=user_query),
     ]
-
-    raw_output = llm.invoke(messages).content.strip()
-    
+    response = await llm.ainvoke(messages)
+    raw_output = response.content.strip()
     try:
         decomposed_queries = ast.literal_eval(raw_output)
         if not isinstance(decomposed_queries, list):
@@ -62,8 +60,7 @@ def query_translation_node(state: EnterpriseState) -> dict:
         "translated_queries": decomposed_queries
     }
 
-
-def reciprocal_rank_fusion_with_parents(results_per_query, k: int = 60):
+async def reciprocal_rank_fusion_with_parents(results_per_query, k: int = 60):
     fused_scores = defaultdict(float)
     for docs in results_per_query:
         for rank, doc in enumerate(docs):
@@ -77,7 +74,7 @@ def reciprocal_rank_fusion_with_parents(results_per_query, k: int = 60):
     return fused_scores
 
 
-def retrival_node(state: EnterpriseState) -> dict:
+async def retrival_node(state: EnterpriseState) -> dict:
     existing_vstore = PGVector(
         connection=engine,
         collection_name=state["policy_file"],
@@ -85,10 +82,10 @@ def retrival_node(state: EnterpriseState) -> dict:
     )
     per_query_results = []
     for query in state["translated_queries"]:
-        docs = existing_vstore.similarity_search(query, k=5)
+        docs = await existing_vstore.similarity_search(query, k=5)
         per_query_results.append(docs)
 
-    fused_scores = reciprocal_rank_fusion_with_parents(per_query_results)
+    fused_scores = await reciprocal_rank_fusion_with_parents(per_query_results)
 
     ranked_leaf_ids = [
         leaf_id
@@ -99,7 +96,7 @@ def retrival_node(state: EnterpriseState) -> dict:
         )
     ]
 
-    leaf_docs = existing_vstore.similarity_search(
+    leaf_docs = await existing_vstore.similarity_search(
         query="",
         k=len(ranked_leaf_ids),
         filter={"leaf_id": {"$in": ranked_leaf_ids}}
@@ -115,7 +112,7 @@ def retrival_node(state: EnterpriseState) -> dict:
     }
 
 
-def answer_generation_node(state: EnterpriseState) -> dict:
+async def answer_generation_node(state: EnterpriseState) -> dict:
     user_query = state["messages"][-1].content
     docs = state.get("retrieved_context", [])
 
@@ -140,7 +137,7 @@ def answer_generation_node(state: EnterpriseState) -> dict:
         HumanMessage(content=user_query)
     ]
 
-    response = llm.invoke(messages).content.strip()
+    response = await llm.ainvoke(messages).content.strip()
 
     return {
         "messages": [AIMessage(content=response)]
