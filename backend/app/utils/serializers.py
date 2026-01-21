@@ -5,7 +5,7 @@ from langchain_core.messages import (
     ToolMessage
 )
 
-def serialize_message(msg):
+async def serialize_message(msg):
     if isinstance(msg, HumanMessage):
         return {"role": "user", "content": msg.content}
 

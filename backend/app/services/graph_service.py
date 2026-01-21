@@ -63,11 +63,11 @@ async def run_graph_async(
             sub = await graph.aget_state(task_config)
             yield {
                 "type": "message",
-                "message": serialize_message(sub.values.get("messages")[-2]),
+                "message": await serialize_message(sub.values.get("messages")[-2]),
             }
             yield {
                 "type": "message",
-                "message": serialize_message(sub.values.get("messages")[-1]),
+                "message": await serialize_message(sub.values.get("messages")[-1]),
             }
             yield {
                 "type": "interrupt",
@@ -80,8 +80,8 @@ async def run_graph_async(
                 messages=[{
                     "role": "assistant",
                     "content": [
-                        {"type": "message", "message": serialize_message(sub.values.get("messages")[-2])},
-                        {"type": "message", "message": serialize_message(sub.values.get("messages")[-1])}
+                        {"type": "message", "message": await serialize_message(sub.values.get("messages")[-2])},
+                        {"type": "message", "message": await serialize_message(sub.values.get("messages")[-1])}
                     ],
                     "timestamp": datetime.now().isoformat(),
                 }]
@@ -93,7 +93,7 @@ async def run_graph_async(
             if isinstance(last_message, AIMessage):
                 yield {
                     "type": "message",
-                    "message": serialize_message(last_message),
+                    "message": await serialize_message(last_message),
                 }
                 await append_chat(
                     db=db,
@@ -101,7 +101,7 @@ async def run_graph_async(
                     messages=[{
                         "role": "assistant",
                         "content": [
-                            {"type": "message", "message": serialize_message(last_message)}
+                            {"type": "message", "message": await serialize_message(last_message)}
                         ],
                         "timestamp": datetime.now().isoformat(),
                     }]
