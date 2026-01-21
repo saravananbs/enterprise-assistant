@@ -1,11 +1,12 @@
 from sqlalchemy import (
     Column, String, Date, DateTime, Boolean, Text, LargeBinary,
-    Integer, Numeric, ForeignKey, CheckConstraint, UniqueConstraint
+    Integer, Numeric, ForeignKey, UniqueConstraint
 )
-from sqlalchemy.dialects.postgresql import UUID
+from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.sql import func
 import uuid
 from datetime import datetime
+from pgvector.sqlalchemy import Vector
 from ..db.connection import Base
 
 class Employee(Base):
@@ -122,3 +123,19 @@ class UserOAuthCredentials(Base):
             f"provider={self.provider}"
             f")>"
         )
+
+class LangchainPgCollection(Base):
+    __tablename__ = "langchain_pg_collection"
+
+    uuid = Column(UUID(as_uuid=True), primary_key=True)
+    name = Column(String, unique=True)
+
+
+class LangchainPgEmbedding(Base):
+    __tablename__ = "langchain_pg_embedding"
+
+    id = Column(UUID(as_uuid=True), primary_key=True)
+    collection_id = Column(UUID(as_uuid=True), ForeignKey("langchain_pg_collection.uuid"))
+    embedding = Column(Vector) 
+    document = Column(String)
+    cmetadata = Column(JSONB)

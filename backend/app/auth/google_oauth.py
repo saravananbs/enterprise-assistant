@@ -12,10 +12,10 @@ import uuid
 
 _OAUTH_STATE_STORE = {}
 
-def create_oauth_state(user_id: str) -> str:
+async def create_oauth_state(user_id: str) -> str:
     state = uuid.uuid4().hex
     _OAUTH_STATE_STORE[state] = user_id
     return state
 
-def consume_oauth_state(state: str) -> str | None:
+async def consume_oauth_state(state: str) -> str | None:
     return _OAUTH_STATE_STORE.pop(state, None)

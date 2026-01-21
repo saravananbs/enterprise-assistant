@@ -12,9 +12,10 @@ from app.api.auth import router as auth_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    checkpointer.setup()
+    await checkpoint_pool.open()
+    await checkpointer.setup()
     yield 
-    checkpoint_pool.close()
+    await checkpoint_pool.close()
 
 app = FastAPI(lifespan=lifespan)
 

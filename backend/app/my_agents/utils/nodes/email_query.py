@@ -15,12 +15,12 @@ llm_with_tools = llm.bind_tools(tools)
 
 llm_structured_output = llm.with_structured_output(SendEmailInput)
 
-def draft_email(state: EnterpriseState) -> EnterpriseState:
+async def draft_email(state: EnterpriseState) -> EnterpriseState:
     messages = state["messages"]
     if not messages or not isinstance(messages[0], SystemMessage):
         messages = [SystemMessage(content=DRAFT_EMAIL_SYSTEM_PROMPT)] + messages
 
-    response = llm_structured_output.invoke(messages)
+    response = await llm_structured_output.ainvoke(messages)
     return {
         "messages": [
             AIMessage(content="I've drafted the email kindly review and make decisions"),
@@ -30,7 +30,7 @@ def draft_email(state: EnterpriseState) -> EnterpriseState:
     }
 
 
-def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
+async def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
     draft_email: SendEmailInput = state["drafted_email"]
     user_id = state["user_id"]
     response = interrupt({
@@ -53,7 +53,7 @@ def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
         cmd = EmailAction(**response)
 
     if cmd.action == "accept":
-        response = send_email_tool(input=draft_email, user_id=user_id)
+        response = await send_email_tool(input=draft_email, user_id=user_id)
         if response["status"] == "sent":
             return {"messages": AIMessage(content="Email sent")}
         else:
@@ -69,7 +69,7 @@ def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
             body=cmd.body,
             cc=cmd.cc
         )
-        response = send_email_tool(input=updated, user_id=user_id)
+        response = await send_email_tool(input=updated, user_id=user_id)
 
         if response["status"] == "sent":
             return {
