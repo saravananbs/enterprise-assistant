@@ -7,7 +7,7 @@ from ..states.enterprise_state import EnterpriseState
 
 load_dotenv()
 
-llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
+llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 classifier = llm.with_structured_output(IntentClassification)
 
 async def classify_user_query(state: EnterpriseState):

@@ -101,7 +101,7 @@ async def get_current_salary_structure(employee_code: str) -> Optional[Dict]:
 
         try:
             res = await db.execute(stmt)
-            structure = res.scalars().all()
+            structure = res.scalar_one()
 
             gross = (
                 structure.basic_salary +
