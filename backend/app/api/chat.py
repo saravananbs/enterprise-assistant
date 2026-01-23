@@ -3,7 +3,7 @@ from fastapi.responses import StreamingResponse
 from app.services.chat_store import list_chats, create_chat
 from sqlalchemy.ext.asyncio import AsyncSession
 from ..schemas.chatrequest import ChatRequest
-from ..services.chat_history import get_chat
+from ..services.chat_history import get_chat, delete_chat
 from ..my_agents.utils.datatypes.email_query import EmailAction
 from ..utils.stream_generator import chat_event_generator, interrupt_event_generator
 from ..my_agents.utils.db.connection import get_async_session
@@ -26,6 +26,18 @@ async def get_chat_history(
     db: AsyncSession = Depends(get_async_session),
 ):
     return await get_chat(db=db, thread_id=f"{user_id}:{chat_id}")
+
+@router.delete("/delete/{user_id}/{chat_id}")
+async def delete_chat_history(
+    user_id: str, 
+    chat_id: str,
+    db: AsyncSession = Depends(get_async_session),
+):
+    deleted = await delete_chat(db=db, user_id=user_id, chat_id=chat_id)
+    if deleted:
+        return {"message": "Chat history deleted successfully", "deleted": True}
+    else:
+        return {"message": "Chat history not found", "deleted": False}
 
 @router.post("/ai/send")
 async def chat_endpoint(
