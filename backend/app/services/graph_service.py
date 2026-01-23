@@ -1,7 +1,6 @@
-from typing import Dict, Any, AsyncGenerator
 from langgraph.types import Command
 from langchain_core.messages import AIMessage
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
 from datetime import datetime
 from ..my_agents.agent import graph
 from ..utils.serializers import serialize_message
@@ -11,7 +10,7 @@ from ..services.chat_history import append_chat
 async def run_graph_async(
     user_id: str,
     chat_id: str,
-    db: Session,
+    db: AsyncSession,
     user_message: str | None = None,
     interrupt_response: EmailAction | None = None,
 ):
