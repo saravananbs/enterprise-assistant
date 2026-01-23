@@ -38,7 +38,7 @@ async def get_employee_by_code(employee_code: str) -> Optional[Dict]:
         
         try:
             res = await db.execute(stmt)
-            employee = res.scalars().all()
+            employee = res.scalar_one()
 
             return {
                 "employee_id": str(employee.employee_id),
@@ -205,7 +205,7 @@ async def get_leave_balances(employee_code: str) -> List[Dict]:
         )
 
         res = await db.execute(stmt)
-        results = res.scalars().all()
+        results = res.all()
 
         return [
             {
@@ -247,7 +247,7 @@ async def get_leave_history(employee_code: str) -> List[Dict]:
         )
 
         res = await db.execute(stmt)
-        results = res.scalars().all()
+        results = res.all()
 
         return [
             {
