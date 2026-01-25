@@ -20,13 +20,13 @@ async def run_graph_async(
     config = {
         "configurable": {
             "thread_id": thread_id
-        }
+        },
+        "user_id": user_id
     }
 
     if user_message is not None:
         input_data = {
             "messages": [("human", user_message)],
-            "user_id": user_id
         }
         await append_chat(
             db=db,

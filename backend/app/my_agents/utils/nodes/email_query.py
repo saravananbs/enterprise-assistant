@@ -30,9 +30,9 @@ async def draft_email(state: EnterpriseState) -> EnterpriseState:
     }
 
 
-async def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
+async def routing_email(state: EnterpriseState, config) -> EnterpriseState | Command:
     draft_email: SendEmailInput = state["drafted_email"]
-    user_id = state["user_id"]
+    user_id = config["configurable"]["user_id"]
     response = interrupt({
         "messages": (
             "choose one action and respond in json:\n\n"
