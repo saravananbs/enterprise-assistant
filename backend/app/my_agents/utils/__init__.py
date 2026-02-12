@@ -2,17 +2,15 @@ from .datatypes import (
     IntentClassification,
     IntentType,
     PolicyFile,
-    PersonalDataType,
     QueryTranslationType,
 )
-from .prompts import INITIAL_INTENT_SYSTEM_PROMPT
-from .nodes import classify_user_query
+from .prompts.initial_intent import INITIAL_INTENT_SYSTEM_PROMPT
+from .nodes.initial_intent import classify_user_query
 
 __all__ = [
     "IntentClassification",
     "IntentType",
     "PolicyFile",
-    "PersonalDataType",
     "QueryTranslationType",
     "INITIAL_INTENT_SYSTEM_PROMPT",
     "classify_user_query",

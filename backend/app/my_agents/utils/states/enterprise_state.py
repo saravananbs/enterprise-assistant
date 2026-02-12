@@ -10,4 +10,3 @@ class EnterpriseState(MessagesState):
     translated_queries: Optional[List[str]] = None
     retrieved_context: Optional[List[Any]] = None
     drafted_email: Optional[SendEmailInput] = None
-    user_id: str

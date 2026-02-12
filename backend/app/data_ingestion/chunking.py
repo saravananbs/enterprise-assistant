@@ -67,7 +67,7 @@ def agentic_chunk_document(llm, document_text: str, max_safe_tokens=5000, recurs
                 for i in range(60, 0, -1):
                     time.sleep(1)
                     if i % 10 == 0: print(f"{i}s remaining...")
-                return agentic_chunk_document(llm, document_text, max_safe_tokens, recursion_depth + 1)
+                return agentic_chunk_document(llm, document_text, max_safe_tokens, recursion_depth)
             else:
                 print(f"Unexpected error: {e}")
                 return []
@@ -101,7 +101,6 @@ def agentic_chunk_document(llm, document_text: str, max_safe_tokens=5000, recurs
                 chunk['chunk_id'] = f"chunk_{chunk_counter}"
                 chunk_counter += 1
             all_chunks.extend(section_chunks)
-            time.sleep(1) 
         
         return all_chunks
 

@@ -1,31 +1,27 @@
+from typing import Dict, Any
 from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage
+from langchain_core.runnables import RunnableConfig
 from ..states.enterprise_state import EnterpriseState
-from ..tools.personal_graph import (
-    get_payroll_summary, get_leave_history, get_current_salary_structure,
-    get_employee_by_code, get_leave_balances, get_all_employees
-)
-from ..prompts.tools import TOOLS_SYSTEM_MESSAGE
+from ..tools.personal_graph import query_database
+from ..prompts.tools import SCHEMA, TOOLS_SYSTEM_MESSAGE_TEMPLATE
+from ..llms.llm_factory import get_llm
 
+llm = get_llm()
 
-llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
-    temperature=0
-)
-
-tools = [
-    get_payroll_summary, get_leave_history, get_current_salary_structure,
-    get_employee_by_code, get_leave_balances, get_all_employees
-]
+tools = [query_database]
 
 llm_with_tools = llm.bind_tools(tools)
 
-async def invoke_llm_with_tools(state: EnterpriseState) -> dict:
+async def invoke_llm_with_tools(state: EnterpriseState, config: RunnableConfig | None = None) -> Dict[str, Any]:
     messages = state["messages"]
+    user_id   = config["configurable"].get("user_id",   "unknown")
+    user_role = config["configurable"].get("user_role", "unknown") 
+    system_content = TOOLS_SYSTEM_MESSAGE_TEMPLATE.format(user_id=user_id, user_role=user_role, schema=SCHEMA)
     if not messages or not isinstance(messages[0], SystemMessage):
-        messages = [SystemMessage(content=TOOLS_SYSTEM_MESSAGE)] + messages
-
+        messages = [SystemMessage(content=system_content)] + messages 
     response = await llm_with_tools.ainvoke(messages)
+    print(response)
     return {
-        "messages": response
+        "messages": [response]
     }

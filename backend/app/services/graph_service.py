@@ -1,33 +1,40 @@
-from typing import Dict, Any, AsyncGenerator
 from langgraph.types import Command
 from langchain_core.messages import AIMessage
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
 from datetime import datetime
+from sqlalchemy import select
 from ..my_agents.agent import graph
 from ..utils.serializers import serialize_message
 from ..my_agents.utils.datatypes.email_query import EmailAction
 from ..services.chat_history import append_chat
+from ..my_agents.utils.db.models import Employee
 
 async def run_graph_async(
     user_id: str,
     chat_id: str,
-    db: Session,
+    db: AsyncSession,
     user_message: str | None = None,
     interrupt_response: EmailAction | None = None,
 ):
 
     thread_id = f"{user_id}:{chat_id}"
 
+    stmt = select(Employee).where(Employee.employee_code == user_id)
+    res = await db.execute(stmt)
+    employee = res.scalar_one()
+    user_role = employee.designation
+
     config = {
         "configurable": {
             "thread_id": thread_id
-        }
+        },
+        "user_id": user_id,
+        "user_role": user_role
     }
 
     if user_message is not None:
         input_data = {
             "messages": [("human", user_message)],
-            "user_id": user_id
         }
         await append_chat(
             db=db,

@@ -21,9 +21,11 @@ from collections import defaultdict
 
 load_dotenv()
 
-llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
+from ..llms.llm_factory import get_llm
 
-CONNECTION_STRING = f"postgresql+psycopg://{os.getenv('POSTGRES_USERNAME')}:{os.getenv('POSTGRES_PASSWORD')}@{os.getenv('POSTGRES_HOST')}:{os.getenv('POSTGRES_PORT')}/{os.getenv('POSTGRES_DB')}"
+llm = get_llm()
+
+CONNECTION_STRING = f"postgresql+psycopg_async://{os.getenv('POSTGRES_USERNAME')}:{os.getenv('POSTGRES_PASSWORD')}@{os.getenv('POSTGRES_HOST')}:{os.getenv('POSTGRES_PORT')}/{os.getenv('POSTGRES_DB')}"
 
 embeddings = HuggingFaceEmbeddings(
     model_name="BAAI/bge-base-en-v1.5"

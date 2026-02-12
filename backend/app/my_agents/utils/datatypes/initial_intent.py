@@ -15,11 +15,6 @@ PolicyFile = Literal[
     "remote_work_policy"
 ]
 
-PersonalDataType = Literal[
-    "personal_leave_details",
-    "personal_salary_credit_details"
-]
-
 QueryTranslationType = Literal[
     "decomposition",     
     "rag_fusion",              
@@ -33,6 +28,6 @@ class IntentClassification(BaseModel):
     intent: IntentType = Field(...  )
 
     policy_file: Optional[PolicyFile] = None
-    personal_data_type: Optional[PersonalDataType] = None
+    personal_data_type: Optional[str] = None
 
     query_translation: QueryTranslationType = "rag_fusion"

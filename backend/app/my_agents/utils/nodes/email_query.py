@@ -5,9 +5,10 @@ from ..states.enterprise_state import EnterpriseState
 from ..prompts.email_query import DRAFT_EMAIL_SYSTEM_PROMPT
 from ..tools.email_graph import send_email_tool
 from ..datatypes.email_query import SendEmailInput, EmailAction
+from ..llms.llm_factory import get_llm
 
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+llm = get_llm()
 
 tools = [send_email_tool]
 
@@ -30,9 +31,9 @@ async def draft_email(state: EnterpriseState) -> EnterpriseState:
     }
 
 
-async def routing_email(state: EnterpriseState) -> EnterpriseState | Command:
+async def routing_email(state: EnterpriseState, config) -> EnterpriseState | Command:
     draft_email: SendEmailInput = state["drafted_email"]
-    user_id = state["user_id"]
+    user_id = config["configurable"]["user_id"]
     response = interrupt({
         "messages": (
             "choose one action and respond in json:\n\n"

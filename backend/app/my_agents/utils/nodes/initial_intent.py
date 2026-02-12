@@ -6,8 +6,9 @@ from ..prompts.initial_intent import INITIAL_INTENT_SYSTEM_PROMPT
 from ..states.enterprise_state import EnterpriseState
 
 load_dotenv()
+from ..llms.llm_factory import get_llm
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+llm = get_llm()
 classifier = llm.with_structured_output(IntentClassification)
 
 async def classify_user_query(state: EnterpriseState):
